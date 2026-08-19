@@ -2,54 +2,26 @@
   "status": "ready",
   "schematic_path": "/home/bismillah/Downloads/Ijr-X1-Core/Ijr-X1-Core.kicad_sch",
   "before_snapshot": "/home/bismillah/Downloads/Ijr-X1-Core/.kicad-mcp/visual-diff-1c6b2012c88e13d4-before.kicad_sch",
-  "before_sha256": "86aba6227dc8c0e2de30a463b89c931bc7994e9b39e98adf2820edfff56e672a",
-  "after_sha256": "5e14da614fafcf990ddb753354aebcf0b0bf4e438b1272e1580d9253d63c27e8",
+  "before_sha256": "3a1587717c75d9a51f7cf89125329bd1379850a45ceadad699a092039c5b2d3f",
+  "after_sha256": "ec315c8ee7287eb0fe75797ff9297bec3edd91ee20b444925cbbd531a5401d06",
   "changed_objects": [
     {
-      "id": "label:label:QSPI_SD1",
-      "kind": "label",
-      "change": "removed",
-      "before": {
-        "kind": "label",
-        "label_type": "label",
-        "name": "QSPI_SD1",
-        "x": 124.46,
-        "y": 92.71,
-        "rotation": 0
-      },
-      "after": null
-    },
-    {
-      "id": "label:label:QSPI_SD1:occurrence=1",
+      "id": "label:label:J1_CC1",
       "kind": "label",
       "change": "added",
       "before": null,
       "after": {
         "kind": "label",
         "label_type": "label",
-        "name": "QSPI_SD1",
-        "x": 124.46,
-        "y": 92.71,
-        "rotation": 0
-      }
-    },
-    {
-      "id": "label:label:QSPI_SD1:occurrence=2",
-      "kind": "label",
-      "change": "added",
-      "before": null,
-      "after": {
-        "kind": "label",
-        "label_type": "label",
-        "name": "QSPI_SD1",
-        "x": 90.17,
-        "y": 110.49,
+        "name": "J1_CC1",
+        "x": 54.61,
+        "y": 44.45,
         "rotation": 0
       }
     }
   ],
   "changed_refs": [],
   "changed_nets": [
-    "QSPI_SD1"
+    "J1_CC1"
   ]
 }
