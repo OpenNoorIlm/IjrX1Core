@@ -1,7 +1,7 @@
 {
     "$schema": "https://schemas.kicad.org/erc.v1.json",
     "coordinate_units": "mm",
-    "date": "2026-08-20T21:37:08",
+    "date": "2026-08-20T21:46:08",
     "ignored_checks": [
         {
             "description": "Global label only appears once in the schematic",
@@ -40,7 +40,7 @@
                                 "x": 2.5908,
                                 "y": 3.6195
                             },
-                            "uuid": "1b98a822-f7ae-40f6-970c-e345e59af38a"
+                            "uuid": "0e6996d2-b18a-4626-ae3d-06b2e0ce663a"
                         }
                     ],
                     "severity": "error",
@@ -55,7 +55,7 @@
                                 "x": 2.5908,
                                 "y": 4.318
                             },
-                            "uuid": "0acdfa37-f318-4eec-aa6a-d2d3fb3c2513"
+                            "uuid": "686d39e0-a297-41ca-9bd3-7d6addec32e1"
                         }
                     ],
                     "severity": "error",
@@ -125,57 +125,12 @@
                     "description": "Pin not connected",
                     "items": [
                         {
-                            "description": "Symbol U6 Pin 2 [MOD/SYNC, Input, Line]",
-                            "pos": {
-                                "x": 2.7432,
-                                "y": 4.2418
-                            },
-                            "uuid": "96ffe733-d14b-42b3-92bc-6e3832a32904"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "pin_not_connected"
-                },
-                {
-                    "description": "Input pin not driven by any Output pins",
-                    "items": [
-                        {
-                            "description": "Symbol U6 Pin 2 [MOD/SYNC, Input, Line]",
-                            "pos": {
-                                "x": 2.7432,
-                                "y": 4.2418
-                            },
-                            "uuid": "96ffe733-d14b-42b3-92bc-6e3832a32904"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "pin_not_driven"
-                },
-                {
-                    "description": "Pin not connected",
-                    "items": [
-                        {
-                            "description": "Symbol U6 Pin 3 [PGOOD, Open collector, Line]",
-                            "pos": {
-                                "x": 2.7432,
-                                "y": 4.2672
-                            },
-                            "uuid": "d9b104e4-df32-4b57-ba0d-9db66003678a"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "pin_not_connected"
-                },
-                {
-                    "description": "Pin not connected",
-                    "items": [
-                        {
                             "description": "Symbol U6 Pin 5 [SS/TRK, Passive, Line]",
                             "pos": {
                                 "x": 2.7432,
                                 "y": 4.318
                             },
-                            "uuid": "0255c261-3b64-4982-ac7c-370a38d804c6"
+                            "uuid": "9b7c2ddb-cc7a-4494-82a1-9310da17ef65"
                         }
                     ],
                     "severity": "error",
@@ -190,7 +145,7 @@
                                 "x": 2.7432,
                                 "y": 4.3434
                             },
-                            "uuid": "13e84225-9d49-4ba8-b34f-eaaa4d09f40b"
+                            "uuid": "ba198fbc-4d52-499d-9f22-5826094dbfdb"
                         }
                     ],
                     "severity": "error",
@@ -205,7 +160,7 @@
                                 "x": 2.8448,
                                 "y": 3.7719
                             },
-                            "uuid": "cabfc439-5862-429f-ad67-1ba87fc2d4a0"
+                            "uuid": "56a9af4e-acd6-48b0-a89e-e5a406af5eab"
                         }
                     ],
                     "severity": "error",
@@ -220,7 +175,7 @@
                                 "x": 2.8448,
                                 "y": 4.445
                             },
-                            "uuid": "bdee51cf-c925-46da-aee5-7aa351631040"
+                            "uuid": "8f8dd714-a07a-4af6-8744-68322c25fd2d"
                         }
                     ],
                     "severity": "error",
@@ -235,7 +190,7 @@
                                 "x": 2.8448,
                                 "y": 4.445
                             },
-                            "uuid": "bdee51cf-c925-46da-aee5-7aa351631040"
+                            "uuid": "8f8dd714-a07a-4af6-8744-68322c25fd2d"
                         }
                     ],
                     "severity": "error",
@@ -250,7 +205,7 @@
                                 "x": 2.8956,
                                 "y": 3.4163
                             },
-                            "uuid": "af98a671-bff5-4548-83eb-e79fbb16d239"
+                            "uuid": "40ba4da5-0532-4ddc-a9b0-0b5284298997"
                         }
                     ],
                     "severity": "error",
@@ -265,7 +220,7 @@
                                 "x": 2.8956,
                                 "y": 3.7719
                             },
-                            "uuid": "f6912afc-bde7-4e26-bb4f-08d4293269ce"
+                            "uuid": "37cb5014-36a4-4bab-bc55-891431e527c2"
                         }
                     ],
                     "severity": "error",
@@ -280,7 +235,7 @@
                                 "x": 2.8956,
                                 "y": 4.1402
                             },
-                            "uuid": "2546e441-9ce0-4f5d-a778-bccd535e2c53"
+                            "uuid": "4a7f5af6-a613-4688-878d-95c983160516"
                         }
                     ],
                     "severity": "error",
@@ -295,7 +250,7 @@
                                 "x": 2.8956,
                                 "y": 4.1402
                             },
-                            "uuid": "2546e441-9ce0-4f5d-a778-bccd535e2c53"
+                            "uuid": "4a7f5af6-a613-4688-878d-95c983160516"
                         }
                     ],
                     "severity": "error",
@@ -310,7 +265,7 @@
                                 "x": 2.8956,
                                 "y": 4.445
                             },
-                            "uuid": "bf47b14b-60bd-4888-811a-c1bfe85a59bb"
+                            "uuid": "c85a9737-f170-4f84-883d-1820301d8efb"
                         }
                     ],
                     "severity": "error",
@@ -325,7 +280,7 @@
                                 "x": 2.8956,
                                 "y": 4.445
                             },
-                            "uuid": "bf47b14b-60bd-4888-811a-c1bfe85a59bb"
+                            "uuid": "c85a9737-f170-4f84-883d-1820301d8efb"
                         }
                     ],
                     "severity": "error",
@@ -340,7 +295,7 @@
                                 "x": 2.8956,
                                 "y": 4.4704
                             },
-                            "uuid": "d4f8a994-a22c-4b6d-9d6a-328ac9329b9b"
+                            "uuid": "55a3a36d-73cf-4ed7-a61a-b239c0baf279"
                         }
                     ],
                     "severity": "error",
@@ -355,7 +310,7 @@
                                 "x": 2.921,
                                 "y": 3.4163
                             },
-                            "uuid": "f3a820e7-2632-4a83-828d-b363a8c4454c"
+                            "uuid": "a2d4c74f-02fe-430b-a1c1-5b17f14f79c2"
                         }
                     ],
                     "severity": "error",
@@ -370,7 +325,7 @@
                                 "x": 2.921,
                                 "y": 3.7719
                             },
-                            "uuid": "1159f1ea-2d72-4a6c-aad0-397b53700fe8"
+                            "uuid": "85c3eec3-f14a-4136-8a84-71d79ddce42d"
                         }
                     ],
                     "severity": "error",
@@ -385,7 +340,7 @@
                                 "x": 2.921,
                                 "y": 4.1402
                             },
-                            "uuid": "3dc6d91d-9e89-45b4-9b52-2ab8040197a8"
+                            "uuid": "652fa4b2-97eb-468a-a23b-2b47937f34c4"
                         }
                     ],
                     "severity": "error",
@@ -400,7 +355,7 @@
                                 "x": 2.921,
                                 "y": 4.1402
                             },
-                            "uuid": "3dc6d91d-9e89-45b4-9b52-2ab8040197a8"
+                            "uuid": "652fa4b2-97eb-468a-a23b-2b47937f34c4"
                         }
                     ],
                     "severity": "error",
@@ -415,7 +370,7 @@
                                 "x": 2.921,
                                 "y": 4.445
                             },
-                            "uuid": "3c2be55c-8fbc-4df3-95ab-2689f2e7a5ae"
+                            "uuid": "5a46d9d3-e6ec-4394-ba84-3c023de96777"
                         }
                     ],
                     "severity": "error",
@@ -430,7 +385,7 @@
                                 "x": 2.921,
                                 "y": 4.445
                             },
-                            "uuid": "3c2be55c-8fbc-4df3-95ab-2689f2e7a5ae"
+                            "uuid": "5a46d9d3-e6ec-4394-ba84-3c023de96777"
                         }
                     ],
                     "severity": "error",
@@ -445,7 +400,7 @@
                                 "x": 2.921,
                                 "y": 4.4704
                             },
-                            "uuid": "7a0ef339-11a1-4ec3-b1bd-c15a9c965822"
+                            "uuid": "9664c150-6ff1-432e-bd4d-31ca8d606fb8"
                         }
                     ],
                     "severity": "error",
@@ -460,7 +415,7 @@
                                 "x": 3.048,
                                 "y": 2.8448
                             },
-                            "uuid": "f10062b9-237d-4594-aed0-990c844aa467"
+                            "uuid": "1b162226-4581-4a17-9f5d-3970f990132b"
                         }
                     ],
                     "severity": "error",
@@ -482,21 +437,6 @@
                     "type": "label_dangling"
                 },
                 {
-                    "description": "Input pin not driven by any Output pins",
-                    "items": [
-                        {
-                            "description": "Symbol U5 Pin 11 [PHASE, Input, Line]",
-                            "pos": {
-                                "x": 3.048,
-                                "y": 3.5687
-                            },
-                            "uuid": "4a3e6763-6bb4-4e80-9f4b-4a49f379f6ca"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "pin_not_driven"
-                },
-                {
                     "description": "Pin not connected",
                     "items": [
                         {
@@ -505,7 +445,7 @@
                                 "x": 3.048,
                                 "y": 4.2164
                             },
-                            "uuid": "84ffdece-5be4-464c-9591-c63c01c4b48c"
+                            "uuid": "825cc398-eafa-45f5-9c04-54771eb03bda"
                         }
                     ],
                     "severity": "error",
@@ -520,71 +460,26 @@
                                 "x": 3.048,
                                 "y": 4.2164
                             },
-                            "uuid": "84ffdece-5be4-464c-9591-c63c01c4b48c"
+                            "uuid": "825cc398-eafa-45f5-9c04-54771eb03bda"
                         }
                     ],
                     "severity": "error",
                     "type": "pin_not_driven"
                 },
                 {
-                    "description": "Pin not connected",
+                    "description": "Label not connected",
                     "items": [
                         {
-                            "description": "Symbol U6 Pin 11 [PHASE, Input, Line]",
+                            "description": "Label 'VRM_UGATE4'",
                             "pos": {
                                 "x": 3.048,
-                                "y": 4.2672
+                                "y": 4.3434
                             },
-                            "uuid": "91716c40-8c7f-46f1-8575-9d6ed915626d"
+                            "uuid": "132a8945-15f4-472b-b23f-4a59c1e2e2f8"
                         }
                     ],
                     "severity": "error",
-                    "type": "pin_not_connected"
-                },
-                {
-                    "description": "Input pin not driven by any Output pins",
-                    "items": [
-                        {
-                            "description": "Symbol U6 Pin 11 [PHASE, Input, Line]",
-                            "pos": {
-                                "x": 3.048,
-                                "y": 4.2672
-                            },
-                            "uuid": "91716c40-8c7f-46f1-8575-9d6ed915626d"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "pin_not_driven"
-                },
-                {
-                    "description": "Pin not connected",
-                    "items": [
-                        {
-                            "description": "Symbol U6 Pin 6 [FB, Input, Line]",
-                            "pos": {
-                                "x": 3.048,
-                                "y": 4.3688
-                            },
-                            "uuid": "7ee9f192-62e9-4fa5-8aed-9cfd16621267"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "pin_not_connected"
-                },
-                {
-                    "description": "Input pin not driven by any Output pins",
-                    "items": [
-                        {
-                            "description": "Symbol U6 Pin 6 [FB, Input, Line]",
-                            "pos": {
-                                "x": 3.048,
-                                "y": 4.3688
-                            },
-                            "uuid": "7ee9f192-62e9-4fa5-8aed-9cfd16621267"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "pin_not_driven"
+                    "type": "label_dangling"
                 },
                 {
                     "description": "Label not connected",
@@ -632,66 +527,6 @@
                     "type": "label_dangling"
                 },
                 {
-                    "description": "Pin not connected",
-                    "items": [
-                        {
-                            "description": "Symbol Q5 Pin G [G, Passive, Line]",
-                            "pos": {
-                                "x": 3.2512,
-                                "y": 3.4925
-                            },
-                            "uuid": "ab43a9f6-2ff9-4b73-b0a5-471504626798"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "pin_not_connected"
-                },
-                {
-                    "description": "Pin not connected",
-                    "items": [
-                        {
-                            "description": "Symbol Q6 Pin G [G, Passive, Line]",
-                            "pos": {
-                                "x": 3.2512,
-                                "y": 3.6957
-                            },
-                            "uuid": "ed2bb4da-7bd2-4515-8a2b-d22c91bdb50b"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "pin_not_connected"
-                },
-                {
-                    "description": "Pin not connected",
-                    "items": [
-                        {
-                            "description": "Symbol Q7 Pin G [G, Passive, Line]",
-                            "pos": {
-                                "x": 3.2512,
-                                "y": 4.191
-                            },
-                            "uuid": "68b17542-31b1-4c04-be45-c15e52b763b3"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "pin_not_connected"
-                },
-                {
-                    "description": "Pin not connected",
-                    "items": [
-                        {
-                            "description": "Symbol Q8 Pin G [G, Passive, Line]",
-                            "pos": {
-                                "x": 3.2512,
-                                "y": 4.3942
-                            },
-                            "uuid": "5f3de29b-70e3-441d-809b-3247062f7ed2"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "pin_not_connected"
-                },
-                {
                     "description": "Label not connected",
                     "items": [
                         {
@@ -730,37 +565,7 @@
                                 "x": 3.3274,
                                 "y": 3.4417
                             },
-                            "uuid": "53cc4bac-2145-4c3d-a22c-b582bf1177b3"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "pin_not_connected"
-                },
-                {
-                    "description": "Pin not connected",
-                    "items": [
-                        {
-                            "description": "Symbol Q5 Pin S [S, Passive, Line]",
-                            "pos": {
-                                "x": 3.3274,
-                                "y": 3.5433
-                            },
-                            "uuid": "b19a8456-1dc7-4246-af48-d36cb4fc5834"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "pin_not_connected"
-                },
-                {
-                    "description": "Pin not connected",
-                    "items": [
-                        {
-                            "description": "Symbol Q6 Pin D [D, Passive, Line]",
-                            "pos": {
-                                "x": 3.3274,
-                                "y": 3.6449
-                            },
-                            "uuid": "48bce3c7-9f1a-4d6d-a1e0-015dae2d315f"
+                            "uuid": "a1ac9b60-07ed-4208-8a0c-5d95767956e5"
                         }
                     ],
                     "severity": "error",
@@ -775,7 +580,7 @@
                                 "x": 3.3274,
                                 "y": 3.7465
                             },
-                            "uuid": "30deb113-997e-4a1c-8a0f-653d7e179fd8"
+                            "uuid": "0902daaf-2f11-4c0e-bdf2-31dd40fd5fa3"
                         }
                     ],
                     "severity": "error",
@@ -790,37 +595,7 @@
                                 "x": 3.3274,
                                 "y": 4.1402
                             },
-                            "uuid": "19952eb9-494b-461e-aa98-a4e3f4a36155"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "pin_not_connected"
-                },
-                {
-                    "description": "Pin not connected",
-                    "items": [
-                        {
-                            "description": "Symbol Q7 Pin S [S, Passive, Line]",
-                            "pos": {
-                                "x": 3.3274,
-                                "y": 4.2418
-                            },
-                            "uuid": "23acf627-81c4-4d98-87f2-6b29defbd4c7"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "pin_not_connected"
-                },
-                {
-                    "description": "Pin not connected",
-                    "items": [
-                        {
-                            "description": "Symbol Q8 Pin D [D, Passive, Line]",
-                            "pos": {
-                                "x": 3.3274,
-                                "y": 4.3434
-                            },
-                            "uuid": "89f7c18f-c2eb-4845-a476-428bfa9a3790"
+                            "uuid": "522d1585-00c4-4b15-b9c5-d152a7506f05"
                         }
                     ],
                     "severity": "error",
@@ -835,7 +610,7 @@
                                 "x": 3.3274,
                                 "y": 4.445
                             },
-                            "uuid": "bd1a5c91-0094-449d-bc65-2c6a3eec1354"
+                            "uuid": "47e17dde-2735-4d1f-bbeb-a80d3428302a"
                         }
                     ],
                     "severity": "error",
@@ -905,6 +680,21 @@
                     "description": "Label connected to only one pin",
                     "items": [
                         {
+                            "description": "Label 'VRM_CLKOUT4'",
+                            "pos": {
+                                "x": 2.7432,
+                                "y": 4.2926
+                            },
+                            "uuid": "f981d0bf-c845-4c43-a00a-5d2952c4c744"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
                             "description": "Label 'VRM_ISEN'",
                             "pos": {
                                 "x": 3.048,
@@ -935,21 +725,6 @@
                     "description": "Label connected to only one pin",
                     "items": [
                         {
-                            "description": "Label 'VRM_UGATE3'",
-                            "pos": {
-                                "x": 3.048,
-                                "y": 3.5433
-                            },
-                            "uuid": "c33e3240-58cf-4ff0-a747-9480122ba34a"
-                        }
-                    ],
-                    "severity": "warning",
-                    "type": "isolated_pin_label"
-                },
-                {
-                    "description": "Label connected to only one pin",
-                    "items": [
-                        {
                             "description": "Label 'VRM_ISEN3'",
                             "pos": {
                                 "x": 3.048,
@@ -965,42 +740,12 @@
                     "description": "Label connected to only one pin",
                     "items": [
                         {
-                            "description": "Label 'VRM_UGATE4'",
-                            "pos": {
-                                "x": 3.048,
-                                "y": 4.2418
-                            },
-                            "uuid": "f0ab7741-325a-4456-988a-e87a645382a1"
-                        }
-                    ],
-                    "severity": "warning",
-                    "type": "isolated_pin_label"
-                },
-                {
-                    "description": "Label connected to only one pin",
-                    "items": [
-                        {
                             "description": "Label 'VRM_ISEN4'",
                             "pos": {
                                 "x": 3.048,
                                 "y": 4.2926
                             },
                             "uuid": "97fada96-5479-4f91-b622-8103791f5d11"
-                        }
-                    ],
-                    "severity": "warning",
-                    "type": "isolated_pin_label"
-                },
-                {
-                    "description": "Label connected to only one pin",
-                    "items": [
-                        {
-                            "description": "Label 'VRM_LGATE4'",
-                            "pos": {
-                                "x": 3.048,
-                                "y": 4.318
-                            },
-                            "uuid": "ec7378de-9765-45be-b1fd-0507891e0d8b"
                         }
                     ],
                     "severity": "warning",

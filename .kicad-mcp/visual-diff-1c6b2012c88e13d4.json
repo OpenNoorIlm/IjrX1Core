@@ -2,37 +2,47 @@
   "status": "ready",
   "schematic_path": "/home/bismillah/Downloads/Ijr-X1-Core/Ijr-X1-Core.kicad_sch",
   "before_snapshot": "/home/bismillah/Downloads/Ijr-X1-Core/.kicad-mcp/visual-diff-1c6b2012c88e13d4-before.kicad_sch",
-  "before_sha256": "727f3be9063ca0781b1d00a89ca5f7b2e8fc49f1f77d55c64f860df97558bbf0",
-  "after_sha256": "2f62058636c802bccc53993142222254fe49979dda42b6325787484031ea04a4",
+  "before_sha256": "842c1c0334352e806f57b1fa924ae7989450e82fb463bbe46ad47f8ee902954a",
+  "after_sha256": "804541e1274ebfb868555cc32dfbd5cbe0e75922c5b9bc9dd69f7f141758bf80",
   "changed_objects": [
     {
-      "id": "symbol:#PWRec1e:unit=1",
-      "kind": "symbol",
+      "id": "label:label:VRM_FB4:occurrence=4",
+      "kind": "label",
+      "change": "modified",
+      "before": {
+        "kind": "label",
+        "label_type": "label",
+        "name": "VRM_FB4",
+        "x": 307.34,
+        "y": 436.88,
+        "rotation": 0
+      },
+      "after": {
+        "kind": "label",
+        "label_type": "label",
+        "name": "VRM_FB4",
+        "x": 259.08,
+        "y": 453.39,
+        "rotation": 0
+      }
+    },
+    {
+      "id": "label:label:VRM_FB4:occurrence=5",
+      "kind": "label",
       "change": "added",
       "before": null,
       "after": {
-        "kind": "symbol",
-        "lib_id": "power:+5V",
-        "reference": "#PWRec1e",
-        "value": "+5V",
-        "footprint": "",
-        "properties": {
-          "Reference": "#PWRec1e",
-          "Value": "+5V",
-          "Footprint": "",
-          "Datasheet": "~"
-        },
-        "dnp": false,
-        "in_bom": true,
-        "x": 274.32,
-        "y": 421.64,
-        "rotation": 0,
-        "unit": 1
+        "kind": "label",
+        "label_type": "label",
+        "name": "VRM_FB4",
+        "x": 307.34,
+        "y": 436.88,
+        "rotation": 0
       }
     }
   ],
-  "changed_refs": [
-    "#PWRec1e"
-  ],
-  "changed_nets": []
+  "changed_refs": [],
+  "changed_nets": [
+    "VRM_FB4"
+  ]
 }

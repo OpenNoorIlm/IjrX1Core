@@ -13057,6 +13057,116 @@
 			)
 		)
 	)
+	(label "VRM_RT4"
+		(at 274.32 424.18 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "02991aa3-0110-4944-92d6-950bdfa6a45d")
+	)
+	(label "VRM_SSTRK4"
+		(at 274.32 426.72 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "7ce0a727-7fa1-485f-a0a7-b98c8245d17c")
+	)
+	(label "VRM_CLKOUT4"
+		(at 274.32 429.26 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "f981d0bf-c845-4c43-a00a-5d2952c4c744")
+	)
+	(label "VRM_UGATE4"
+		(at 304.8 434.34 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "132a8945-15f4-472b-b23f-4a59c1e2e2f8")
+	)
+	(label "VRM_LGATE4"
+		(at 304.8 426.72 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "96b51072-e30b-4cc4-b6f2-5cec65c75423")
+	)
+	(label "VRM_BOOT4"
+		(at 304.8 436.88 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "5a3a1ce3-bd32-42d9-a51b-0efb649a78ff")
+	)
+	(label "VRM_UGATE2"
+		(at 325.12 279.4 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "836675bd-6f26-40fe-8255-53f697d4c90e")
+	)
+	(label "VRM_LGATE2"
+		(at 325.12 299.72 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "83d0a5a8-f371-432d-9f6e-55cb131fcb61")
+	)
+	(label "VRM_UGATE3"
+		(at 325.12 349.25 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "a4bd2fcd-2c33-4329-b6f3-3ecbe2bbbffb")
+	)
+	(label "VRM_LGATE3"
+		(at 325.12 369.57 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "1be9f1ee-9ff5-4a43-b372-249216f94558")
+	)
+	(label "VRM_UGATE4"
+		(at 325.12 419.1 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "5659d137-fd4d-478d-b200-6ee402de63bf")
+	)
+	(label "VRM_LGATE4"
+		(at 325.12 439.42 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "feb1d3e1-1a8a-499a-9962-a9eaf0bc59c5")
+	)
+	(label "VRM_PHASE3"
+		(at 332.74 354.33 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "bb58652a-4ac1-4456-9b9a-4198f66c8378")
+	)
+	(label "VRM_PHASE3"
+		(at 332.74 364.49 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "4d314a61-88ed-4918-9758-fa00d8877380")
+	)
+	(label "VRM_PHASE3"
+		(at 320.04 349.25 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "af410e97-d7ae-4eec-9274-12216029d070")
+	)
+	(label "VRM_PHASE3"
+		(at 355.6 354.33 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "af2dc595-e79a-47d8-8869-7ca7195a39e1")
+	)
+	(label "VRM_PHASE4"
+		(at 332.74 424.18 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "3c5d369e-5bee-4256-99f0-80b1ce75beaa")
+	)
+	(label "VRM_PHASE4"
+		(at 332.74 434.34 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "c36602d6-9163-491d-8f76-10fecc8ecf47")
+	)
+	(label "VRM_PHASE4"
+		(at 320.04 419.1 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "ff76835f-14fd-4073-bd9e-bc4c8a83c071")
+	)
+	(label "VRM_PHASE4"
+		(at 355.6 424.18 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "745be414-a42c-496f-bd13-3c62f5d56165")
+	)
+	(label "VRM_FB4"
+		(at 259.08 450.85 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "278485a2-d56a-48d9-b4ab-f7c015f39636")
+	)
+	(label "VRM_FB4"
+		(at 259.08 453.39 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "5950cc93-d6f7-4e66-9e31-335a7c0fdb2f")
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
