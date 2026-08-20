@@ -6205,6 +6205,49 @@
 			)
 		)
 	)
+	(label "+3V3"
+		(at 59.69 170.18 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "e55b8d97-2115-42df-baca-8bbbdb2522ea")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 74.93 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ce1a8b7-624c-4038-87a3-5376d2b93053")
+		(property "Reference" "#PWR02"
+			(at 74.93 163.83 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "PWR_FLAG"
+			(at 74.93 165.1 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 74.93 170.18 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 74.93 170.18 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWR02") (unit 1)
+				)
+			)
+		)
+	)
+	(label "GND"
+		(at 74.93 170.18 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "4afbe32e-f550-4f37-8bdb-a26d6ac59936")
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

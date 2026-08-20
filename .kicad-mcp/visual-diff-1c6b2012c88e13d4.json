@@ -2,37 +2,173 @@
   "status": "ready",
   "schematic_path": "/home/bismillah/Downloads/Ijr-X1-Core/Ijr-X1-Core.kicad_sch",
   "before_snapshot": "/home/bismillah/Downloads/Ijr-X1-Core/.kicad-mcp/visual-diff-1c6b2012c88e13d4-before.kicad_sch",
-  "before_sha256": "5d8ea2d6c90d4f2925d30eaa4e6d6325839d311f8ecc7d01bdd645a8352a328b",
-  "after_sha256": "46ab0ff3ad4fbe607ed7490c191eba590e09aea9639f3e4cfc305023c59322fb",
+  "before_sha256": "b342e96a48ccc59522a99e4dd0cf55614f0483b07563c4f4b9879cea3151909e",
+  "after_sha256": "f6c2b1f36beba1c49334a17e94108d9372e485b59024631e823b492d290aeacc",
   "changed_objects": [
     {
-      "id": "symbol:#PWR01:unit=1",
-      "kind": "symbol",
+      "id": "label:label:GND:occurrence=16",
+      "kind": "label",
+      "change": "modified",
+      "before": {
+        "kind": "label",
+        "label_type": "label",
+        "name": "GND",
+        "x": 74.93,
+        "y": 36.83,
+        "rotation": 0
+      },
+      "after": {
+        "kind": "label",
+        "label_type": "label",
+        "name": "GND",
+        "x": 74.93,
+        "y": 170.18,
+        "rotation": 0
+      }
+    },
+    {
+      "id": "label:label:GND:occurrence=17",
+      "kind": "label",
+      "change": "modified",
+      "before": {
+        "kind": "label",
+        "label_type": "label",
+        "name": "GND",
+        "x": 74.93,
+        "y": 48.26,
+        "rotation": 0
+      },
+      "after": {
+        "kind": "label",
+        "label_type": "label",
+        "name": "GND",
+        "x": 74.93,
+        "y": 36.83,
+        "rotation": 0
+      }
+    },
+    {
+      "id": "label:label:GND:occurrence=18",
+      "kind": "label",
+      "change": "modified",
+      "before": {
+        "kind": "label",
+        "label_type": "label",
+        "name": "GND",
+        "x": 74.93,
+        "y": 86.36,
+        "rotation": 0
+      },
+      "after": {
+        "kind": "label",
+        "label_type": "label",
+        "name": "GND",
+        "x": 74.93,
+        "y": 48.26,
+        "rotation": 0
+      }
+    },
+    {
+      "id": "label:label:GND:occurrence=19",
+      "kind": "label",
+      "change": "modified",
+      "before": {
+        "kind": "label",
+        "label_type": "label",
+        "name": "GND",
+        "x": 74.93,
+        "y": 99.06,
+        "rotation": 0
+      },
+      "after": {
+        "kind": "label",
+        "label_type": "label",
+        "name": "GND",
+        "x": 74.93,
+        "y": 86.36,
+        "rotation": 0
+      }
+    },
+    {
+      "id": "label:label:GND:occurrence=20",
+      "kind": "label",
+      "change": "modified",
+      "before": {
+        "kind": "label",
+        "label_type": "label",
+        "name": "GND",
+        "x": 87.63,
+        "y": 142.24,
+        "rotation": 0
+      },
+      "after": {
+        "kind": "label",
+        "label_type": "label",
+        "name": "GND",
+        "x": 74.93,
+        "y": 99.06,
+        "rotation": 0
+      }
+    },
+    {
+      "id": "label:label:GND:occurrence=21",
+      "kind": "label",
+      "change": "modified",
+      "before": {
+        "kind": "label",
+        "label_type": "label",
+        "name": "GND",
+        "x": 87.63,
+        "y": 41.91,
+        "rotation": 0
+      },
+      "after": {
+        "kind": "label",
+        "label_type": "label",
+        "name": "GND",
+        "x": 87.63,
+        "y": 142.24,
+        "rotation": 0
+      }
+    },
+    {
+      "id": "label:label:GND:occurrence=22",
+      "kind": "label",
+      "change": "modified",
+      "before": {
+        "kind": "label",
+        "label_type": "label",
+        "name": "GND",
+        "x": 87.63,
+        "y": 91.44,
+        "rotation": 0
+      },
+      "after": {
+        "kind": "label",
+        "label_type": "label",
+        "name": "GND",
+        "x": 87.63,
+        "y": 41.91,
+        "rotation": 0
+      }
+    },
+    {
+      "id": "label:label:GND:occurrence=23",
+      "kind": "label",
       "change": "added",
       "before": null,
       "after": {
-        "kind": "symbol",
-        "lib_id": "power:PWR_FLAG",
-        "reference": "#PWR01",
-        "value": "PWR_FLAG",
-        "footprint": "",
-        "properties": {
-          "Reference": "#PWR01",
-          "Value": "PWR_FLAG",
-          "Footprint": "",
-          "Datasheet": "~"
-        },
-        "dnp": false,
-        "in_bom": true,
-        "x": 59.69,
-        "y": 170.18,
-        "rotation": 0,
-        "unit": 1
+        "kind": "label",
+        "label_type": "label",
+        "name": "GND",
+        "x": 87.63,
+        "y": 91.44,
+        "rotation": 0
       }
     }
   ],
-  "changed_refs": [
-    "#PWR01"
-  ],
-  "changed_nets": []
+  "changed_refs": [],
+  "changed_nets": [
+    "GND"
+  ]
 }
