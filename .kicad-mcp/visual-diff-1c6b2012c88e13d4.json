@@ -2,158 +2,11 @@
   "status": "ready",
   "schematic_path": "/home/bismillah/Downloads/Ijr-X1-Core/Ijr-X1-Core.kicad_sch",
   "before_snapshot": "/home/bismillah/Downloads/Ijr-X1-Core/.kicad-mcp/visual-diff-1c6b2012c88e13d4-before.kicad_sch",
-  "before_sha256": "b342e96a48ccc59522a99e4dd0cf55614f0483b07563c4f4b9879cea3151909e",
-  "after_sha256": "f6c2b1f36beba1c49334a17e94108d9372e485b59024631e823b492d290aeacc",
+  "before_sha256": "1f4dade09176387d48cfcda38e2e94c1b0e663deb197b089026ab88d9b9b1bea",
+  "after_sha256": "271c30f7d989e617da5063a6032eada105c8f26ba152064492fcc3a22b1063d1",
   "changed_objects": [
     {
-      "id": "label:label:GND:occurrence=16",
-      "kind": "label",
-      "change": "modified",
-      "before": {
-        "kind": "label",
-        "label_type": "label",
-        "name": "GND",
-        "x": 74.93,
-        "y": 36.83,
-        "rotation": 0
-      },
-      "after": {
-        "kind": "label",
-        "label_type": "label",
-        "name": "GND",
-        "x": 74.93,
-        "y": 170.18,
-        "rotation": 0
-      }
-    },
-    {
-      "id": "label:label:GND:occurrence=17",
-      "kind": "label",
-      "change": "modified",
-      "before": {
-        "kind": "label",
-        "label_type": "label",
-        "name": "GND",
-        "x": 74.93,
-        "y": 48.26,
-        "rotation": 0
-      },
-      "after": {
-        "kind": "label",
-        "label_type": "label",
-        "name": "GND",
-        "x": 74.93,
-        "y": 36.83,
-        "rotation": 0
-      }
-    },
-    {
-      "id": "label:label:GND:occurrence=18",
-      "kind": "label",
-      "change": "modified",
-      "before": {
-        "kind": "label",
-        "label_type": "label",
-        "name": "GND",
-        "x": 74.93,
-        "y": 86.36,
-        "rotation": 0
-      },
-      "after": {
-        "kind": "label",
-        "label_type": "label",
-        "name": "GND",
-        "x": 74.93,
-        "y": 48.26,
-        "rotation": 0
-      }
-    },
-    {
-      "id": "label:label:GND:occurrence=19",
-      "kind": "label",
-      "change": "modified",
-      "before": {
-        "kind": "label",
-        "label_type": "label",
-        "name": "GND",
-        "x": 74.93,
-        "y": 99.06,
-        "rotation": 0
-      },
-      "after": {
-        "kind": "label",
-        "label_type": "label",
-        "name": "GND",
-        "x": 74.93,
-        "y": 86.36,
-        "rotation": 0
-      }
-    },
-    {
-      "id": "label:label:GND:occurrence=20",
-      "kind": "label",
-      "change": "modified",
-      "before": {
-        "kind": "label",
-        "label_type": "label",
-        "name": "GND",
-        "x": 87.63,
-        "y": 142.24,
-        "rotation": 0
-      },
-      "after": {
-        "kind": "label",
-        "label_type": "label",
-        "name": "GND",
-        "x": 74.93,
-        "y": 99.06,
-        "rotation": 0
-      }
-    },
-    {
-      "id": "label:label:GND:occurrence=21",
-      "kind": "label",
-      "change": "modified",
-      "before": {
-        "kind": "label",
-        "label_type": "label",
-        "name": "GND",
-        "x": 87.63,
-        "y": 41.91,
-        "rotation": 0
-      },
-      "after": {
-        "kind": "label",
-        "label_type": "label",
-        "name": "GND",
-        "x": 87.63,
-        "y": 142.24,
-        "rotation": 0
-      }
-    },
-    {
-      "id": "label:label:GND:occurrence=22",
-      "kind": "label",
-      "change": "modified",
-      "before": {
-        "kind": "label",
-        "label_type": "label",
-        "name": "GND",
-        "x": 87.63,
-        "y": 91.44,
-        "rotation": 0
-      },
-      "after": {
-        "kind": "label",
-        "label_type": "label",
-        "name": "GND",
-        "x": 87.63,
-        "y": 41.91,
-        "rotation": 0
-      }
-    },
-    {
-      "id": "label:label:GND:occurrence=23",
+      "id": "label:label:GND:occurrence=46",
       "kind": "label",
       "change": "added",
       "before": null,
@@ -161,8 +14,8 @@
         "kind": "label",
         "label_type": "label",
         "name": "GND",
-        "x": 87.63,
-        "y": 91.44,
+        "x": 95.25,
+        "y": 252.73,
         "rotation": 0
       }
     }
