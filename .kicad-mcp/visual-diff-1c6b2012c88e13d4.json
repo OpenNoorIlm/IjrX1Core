@@ -2,26 +2,37 @@
   "status": "ready",
   "schematic_path": "/home/bismillah/Downloads/Ijr-X1-Core/Ijr-X1-Core.kicad_sch",
   "before_snapshot": "/home/bismillah/Downloads/Ijr-X1-Core/.kicad-mcp/visual-diff-1c6b2012c88e13d4-before.kicad_sch",
-  "before_sha256": "1f4dade09176387d48cfcda38e2e94c1b0e663deb197b089026ab88d9b9b1bea",
-  "after_sha256": "271c30f7d989e617da5063a6032eada105c8f26ba152064492fcc3a22b1063d1",
+  "before_sha256": "727f3be9063ca0781b1d00a89ca5f7b2e8fc49f1f77d55c64f860df97558bbf0",
+  "after_sha256": "2f62058636c802bccc53993142222254fe49979dda42b6325787484031ea04a4",
   "changed_objects": [
     {
-      "id": "label:label:GND:occurrence=46",
-      "kind": "label",
+      "id": "symbol:#PWRec1e:unit=1",
+      "kind": "symbol",
       "change": "added",
       "before": null,
       "after": {
-        "kind": "label",
-        "label_type": "label",
-        "name": "GND",
-        "x": 95.25,
-        "y": 252.73,
-        "rotation": 0
+        "kind": "symbol",
+        "lib_id": "power:+5V",
+        "reference": "#PWRec1e",
+        "value": "+5V",
+        "footprint": "",
+        "properties": {
+          "Reference": "#PWRec1e",
+          "Value": "+5V",
+          "Footprint": "",
+          "Datasheet": "~"
+        },
+        "dnp": false,
+        "in_bom": true,
+        "x": 274.32,
+        "y": 421.64,
+        "rotation": 0,
+        "unit": 1
       }
     }
   ],
-  "changed_refs": [],
-  "changed_nets": [
-    "GND"
-  ]
+  "changed_refs": [
+    "#PWRec1e"
+  ],
+  "changed_nets": []
 }

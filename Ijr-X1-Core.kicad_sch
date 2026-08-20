@@ -4,6 +4,1288 @@
 	(uuid "0a8e2d86-540d-4bc7-908e-89ff2a8b35b6")
 	(paper "A3")
 	(lib_symbols
+	(symbol "Device:L"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "L"
+			(at -1.27 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 1.905 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "inductor choke coil reactor magnetic"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "L_0_1"
+			(arc
+				(start 0 2.54)
+				(mid 0.6323 1.905)
+				(end 0 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.27)
+				(mid 0.6323 0.635)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.6323 -0.635)
+				(end 0 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.27)
+				(mid 0.6323 -1.905)
+				(end 0 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "L_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Device:Q_NMOS"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "Q"
+			(at 5.08 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_NMOS"
+			(at 5.08 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 5.08 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "NMOS N-MOS"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Q_NMOS_0_1"
+			(polyline
+				(pts
+					(xy 0.254 1.905) (xy 0.254 -1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.254 0) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 2.286) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 0.508) (xy 0.762 -0.508)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -1.27) (xy 0.762 -2.286)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 1.651 0)
+				(radius 2.794)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 2.54) (xy 2.54 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 1.778)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 2.54 -1.778)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.921 0.381) (xy 3.683 0.381)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Q_NMOS_1_1"
+			(pin passive line
+				(at 2.54 5.08 270)
+				(length 2.54)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -5.08 90)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "power:+12V"
+		(power global)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 0 3.556 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "global power"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "+12V_0_1"
+			(polyline
+				(pts
+					(xy -0.762 1.27) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "+12V_1_1"
+			(pin power_in line
+				(at 0 0 90)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "power:+5V"
+		(power global)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 0 3.556 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "global power"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "+5V_0_1"
+			(polyline
+				(pts
+					(xy -0.762 1.27) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "+5V_1_1"
+			(pin power_in line
+				(at 0 0 90)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "power:GND"
+		(power global)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "#PWR"
+			(at 0 -6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 0 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "global power"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "GND_0_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "GND_1_1"
+			(pin power_in line
+				(at 0 0 270)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Regulator_Switching:ISL8117FRZ"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at -12.7 13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ISL8117FRZ"
+			(at 3.81 13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-16-1EP_4x4mm_P0.5mm_EP2.45x2.45mm"
+			(at 3.81 -13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.renesas.com/en/document/dst/isl8117-datasheet?r=501691"
+			(at -12.7 13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Synchronous step-down PWM controller, 4.5v to 60v input, 0.6v to 54v Output Voltage, QFN-16"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "PWM step down buck converter controller synchronous POL"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "QFN*1EP*4x4mm*P0.5mm*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "ISL8117FRZ_0_1"
+			(rectangle
+				(start -12.7 12.7)
+				(end 12.7 -12.7)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "ISL8117FRZ_1_1"
+			(pin output line
+				(at -15.24 0 0)
+				(length 2.54)
+				(name "CLKOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -15.24 5.08 0)
+				(length 2.54)
+				(name "MOD/SYNC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at -15.24 2.54 0)
+				(length 2.54)
+				(name "PGOOD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 -5.08 0)
+				(length 2.54)
+				(name "RT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 -2.54 0)
+				(length 2.54)
+				(name "SS/TRK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 15.24 -7.62 180)
+				(length 2.54)
+				(name "FB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 2.54 -15.24 90)
+				(length 2.54)
+				(name "PGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 15.24 -2.54 180)
+				(length 2.54)
+				(name "LGATE/OCS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 15.24 270)
+				(length 2.54)
+				(name "VCC5V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 0 180)
+				(length 2.54)
+				(name "ISEN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 15.24 2.54 180)
+				(length 2.54)
+				(name "PHASE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 15.24 5.08 180)
+				(length 2.54)
+				(name "UGATE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 15.24 7.62 180)
+				(length 2.54)
+				(name "BOOT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 2.54 15.24 270)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 -15.24 90)
+				(length 2.54)
+				(name "EXTBIAS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -15.24 7.62 0)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -15.24 90)
+				(length 2.54)
+				(name "SGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "Connector_Generic:Conn_01x02"
 		(pin_names
 			(offset 1.016)
@@ -8016,7 +9298,6 @@
 		(effects (font (size 1.524 1.524)))
 		(uuid "c8eae652-c4bb-452a-90f1-3b9c99e8fed7")
 	)
-	(no_connect (at 46.99 214.63) (uuid "afe521ca-bd7d-4b13-8396-a24df5ee6113"))
 	(no_connect (at 46.99 222.25) (uuid "b9fccd17-0320-413e-9576-d17e8f208dc1"))
 	(label "+12V"
 		(at 34.29 289.56 0)
@@ -8080,6 +9361,3701 @@
 		(at 95.25 252.73 0)
 		(effects (font (size 1.524 1.524)))
 		(uuid "83690172-0679-4124-8f65-9a2e8b950693")
+	)
+	(symbol
+		(lib_id "Regulator_Switching:ISL8117FRZ")
+		(at 289.56 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a5325ae-8b7b-47d1-9c07-fa12915bb24d")
+		(property "Reference" "U3"
+			(at 289.56 215.9 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "ISL8117FRZ"
+			(at 289.56 223.52 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 289.56 219.71 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 289.56 219.71 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "U3") (unit 1)
+				)
+			)
+		)
+	)
+	(label "VRM_CLKOUT"
+		(at 274.32 219.71 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "358d719f-eb12-4993-8e6b-5ea44342ea1d")
+	)
+	(label "VRM_SYNC"
+		(at 274.32 224.79 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "f8992071-2d97-451f-bab5-7dc9ee26891c")
+	)
+	(label "VRM_PGOOD"
+		(at 274.32 222.25 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "91fea2fa-65b9-4bc8-81aa-ce42db070f12")
+	)
+	(label "VRM_RT"
+		(at 274.32 214.63 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "97888610-079f-49a0-ac7a-251e215164f0")
+	)
+	(label "VRM_SSTRK"
+		(at 274.32 217.17 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "92750ac8-6d9a-4902-9901-5d683c309d7f")
+	)
+	
+	(label "VRM_FB"
+		(at 304.8 212.09 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "40dab348-7f67-4a50-bdf3-9bc221ce97c3")
+	)
+	(label "VRM_LGATE"
+		(at 304.8 217.17 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "8e450a97-6347-438b-8e55-8f44da7382d2")
+	)
+	(label "VRM_ISEN"
+		(at 304.8 219.71 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "1b281897-1b9d-4e6c-87e0-7ce07d87c0f7")
+	)
+	(label "VRM_PHASE"
+		(at 304.8 222.25 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "3ce89f2c-83e2-48be-ad12-b6b3e9ea6137")
+	)
+	
+	(label "VRM_BOOT"
+		(at 304.8 227.33 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "3ec72955-6a6b-4a43-94e7-c899c69fc692")
+	)
+	
+	
+	(symbol
+		(lib_id "Device:R")
+		(at 259.08 214.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69f9aa9e-3a79-473d-b271-e56de912ba3e")
+		(property "Reference" "R9"
+			(at 259.08 210.82 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "100k"
+			(at 259.08 218.44 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 259.08 214.63 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 259.08 214.63 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "R9") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 259.08 237.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a928791c-8072-45e9-89b8-d1c49bb8b3d7")
+		(property "Reference" "R10"
+			(at 259.08 233.68 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "10k"
+			(at 259.08 241.3 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 259.08 237.49 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 259.08 237.49 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "R10") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 259.08 247.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "474e026d-bb16-46bb-ba17-00bdd72d2e79")
+		(property "Reference" "R11"
+			(at 259.08 243.84 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "4.7k"
+			(at 259.08 251.46 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 259.08 247.65 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 259.08 247.65 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "R11") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NMOS")
+		(at 330.2 209.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a87a1bb5-310c-4c4e-8444-9395e11054cc")
+		(property "Reference" "Q1"
+			(at 330.2 205.74 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "BSC010NE2LS"
+			(at 330.2 213.36 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 330.2 209.55 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 330.2 209.55 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "Q1") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NMOS")
+		(at 330.2 229.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf6fa199-cfef-4818-83e8-8c6eedb101ba")
+		(property "Reference" "Q2"
+			(at 330.2 226.06 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "BSC010NE2LS"
+			(at 330.2 233.68 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 330.2 229.87 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 330.2 229.87 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "Q2") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 355.6 218.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3a1e2f0-3235-4a93-afdb-550d6cf6b710")
+		(property "Reference" "L1"
+			(at 355.6 214.63 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "220nH"
+			(at 355.6 222.25 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 355.6 218.44 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 355.6 218.44 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "L1") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 374.65 218.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14dbb9fa-284c-4183-9e29-c8384d9f0f66")
+		(property "Reference" "C7"
+			(at 374.65 214.63 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "560uF"
+			(at 374.65 222.25 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 374.65 218.44 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 374.65 218.44 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "C7") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 320.04 205.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "040432d8-1855-404f-ac4f-ff4070597ac5")
+		(property "Reference" "C8"
+			(at 320.04 201.93 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "100nF"
+			(at 320.04 209.55 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 320.04 205.74 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 320.04 205.74 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "C8") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 332.74 204.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5118e257-2a35-4361-88ab-bf721e06cf41")
+		(property "Reference" "#PWR9586"
+			(at 332.74 198.12 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "+12V"
+			(at 332.74 199.39 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 332.74 204.47 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 332.74 204.47 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWR9586") (unit 1)
+				)
+			)
+		)
+	)
+	(label "VRM_UGATE"
+		(at 325.12 209.55 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "6432d66d-f8bf-4f3d-b7b5-1d184be2ef30")
+	)
+	(label "VRM_PHASE"
+		(at 332.74 214.63 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "f121c343-3584-4a78-8ac3-150f0c2a6a6d")
+	)
+	
+	(label "VRM_LGATE"
+		(at 325.12 229.87 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "11877691-6929-4151-8a4d-59344209df7a")
+	)
+	
+	(symbol
+		(lib_id "power:GND")
+		(at 332.74 234.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c2284f8-244c-4980-8d67-15bc79ec5ca0")
+		(property "Reference" "#PWR2e8e"
+			(at 332.74 241.3 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 332.74 240.03 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 332.74 234.95 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 332.74 234.95 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWR2e8e") (unit 1)
+				)
+			)
+		)
+	)
+	(label "VRM_PHASE"
+		(at 355.6 214.63 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "7ed0494a-69e2-46e3-9b01-ee4daf9d56f8")
+	)
+	(label "VCORE"
+		(at 355.6 222.25 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "937e47aa-ca25-4296-bd2b-e742d71d7ba4")
+	)
+	(label "VCORE"
+		(at 374.65 214.63 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "c310a44e-02f3-4c76-9b7f-2b03ede9084f")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 374.65 222.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e70641ac-f49f-49d2-9b9f-555cab949626")
+		(property "Reference" "#PWRf8ea"
+			(at 374.65 228.6 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 374.65 227.33 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 374.65 222.25 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 374.65 222.25 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWRf8ea") (unit 1)
+				)
+			)
+		)
+	)
+	(label "VRM_BOOT"
+		(at 320.04 201.93 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "e3e11e37-3941-4268-9df7-5071f51e61df")
+	)
+	(label "VRM_PHASE"
+		(at 320.04 209.55 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "b0d1de2f-b5ed-4ed9-91f5-a1029ff5f2f8")
+	)
+	(label "VRM_RT"
+		(at 259.08 210.82 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "e8cf036b-24a7-4712-84c1-646d72e96698")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 259.08 218.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b131a601-5067-481f-b5bb-6ce2eb9afeb0")
+		(property "Reference" "#PWR9c1b"
+			(at 259.08 224.79 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 259.08 223.52 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 259.08 218.44 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 259.08 218.44 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWR9c1b") (unit 1)
+				)
+			)
+		)
+	)
+	(label "VRM_SSTRK"
+		(at 259.08 224.79 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "c3db8d75-f2c3-446d-99f2-a5b26befb0c9")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 259.08 232.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e17885a-369e-4a85-b89c-341575c96223")
+		(property "Reference" "#PWRb791"
+			(at 259.08 238.76 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 259.08 237.49 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 259.08 232.41 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 259.08 232.41 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWRb791") (unit 1)
+				)
+			)
+		)
+	)
+	(label "VCORE"
+		(at 259.08 233.68 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "e9a6a12f-a399-45f9-b131-f8f2241e35f1")
+	)
+	(label "VRM_FB"
+		(at 259.08 241.3 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "c89d544f-723a-4ce0-bc3e-7cd1cc6453fc")
+	)
+	(label "VRM_FB"
+		(at 259.08 243.84 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "d425d94e-7e9c-4e6a-bf1b-e251b4f2c895")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 259.08 251.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7fbb849c-5a9c-4a8c-9e0f-729bd18b9a7b")
+		(property "Reference" "#PWR866b"
+			(at 259.08 257.81 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 259.08 256.54 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 259.08 251.46 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 259.08 251.46 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWR866b") (unit 1)
+				)
+			)
+		)
+	)
+	
+	
+	(label "VRM_PHASE"
+		(at 332.74 224.79 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "4aa0b2d5-d658-4c31-9fda-d2261f3532c0")
+	)
+	(label "VRM_UGATE"
+		(at 304.8 214.63 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "756496c2-ee30-4847-8f25-d5978c7eb9ce")
+	)
+	
+	
+	(symbol
+		(lib_id "power:+5V")
+		(at 274.32 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17db9c63-8fa6-4cc0-8610-fffe8020068a")
+		(property "Reference" "#PWRbff5"
+			(at 274.32 205.74 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "+5V"
+			(at 274.32 207.01 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 274.32 212.09 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 274.32 212.09 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWRbff5") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 292.1 234.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4102ab53-7872-419d-b2d7-778abfb798f7")
+		(property "Reference" "#PWRdea9"
+			(at 292.1 241.3 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 292.1 240.03 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 292.1 234.95 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 292.1 234.95 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWRdea9") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 289.56 234.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0602811-8e9a-4fe1-8cd5-ee85bb2499ff")
+		(property "Reference" "#PWR4ac1"
+			(at 289.56 241.3 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 289.56 240.03 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 289.56 234.95 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 289.56 234.95 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWR4ac1") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 289.56 204.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0c25f8d-13af-4d95-b32a-84b72a1148f5")
+		(property "Reference" "#PWRf26a"
+			(at 289.56 198.12 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "+5V"
+			(at 289.56 199.39 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 289.56 204.47 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 289.56 204.47 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWRf26a") (unit 1)
+				)
+			)
+		)
+	)
+	
+	(symbol
+		(lib_id "Device:C")
+		(at 259.08 228.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d030e43-085e-4161-ba51-5102a414717c")
+		(property "Reference" "C6"
+			(at 259.08 224.79 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "10nF"
+			(at 259.08 232.41 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 259.08 228.6 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 259.08 228.6 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "C6") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 292.1 204.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e19b5bb8-c9b4-479b-a1a8-a0474bb3d7f9")
+		(property "Reference" "#PWRe6a0"
+			(at 292.1 198.12 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "+12V"
+			(at 292.1 199.39 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 292.1 204.47 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 292.1 204.47 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWRe6a0") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 284.48 234.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b4288a7d-d928-4212-bf69-211bcd1312fc")
+		(property "Reference" "#PWRd948"
+			(at 284.48 228.6 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "+5V"
+			(at 284.48 229.87 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 284.48 234.95 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 284.48 234.95 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWRd948") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 274.32 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd300c9b-cdd8-4f7c-8372-299e86a431aa")
+		(property "Reference" "#PWR823d"
+			(at 274.32 205.74 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "PWR_FLAG"
+			(at 274.32 207.01 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 274.32 212.09 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 274.32 212.09 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWR823d") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 332.74 204.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "722f6a3a-edf3-41ca-9500-aa15ea5ef15f")
+		(property "Reference" "#PWR6b8c"
+			(at 332.74 198.12 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "PWR_FLAG"
+			(at 332.74 199.39 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 332.74 204.47 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 332.74 204.47 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWR6b8c") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Switching:ISL8117FRZ")
+		(at 289.56 289.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ed7059e-933b-4fff-ba39-c6dd34d38a12")
+		(property "Reference" "U4"
+			(at 289.56 285.75 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "ISL8117FRZ"
+			(at 289.56 293.37 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 289.56 289.56 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 289.56 289.56 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "U4") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Switching:ISL8117FRZ")
+		(at 289.56 359.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bea01316-f090-4c66-ba39-70557bdf126a")
+		(property "Reference" "U5"
+			(at 289.56 355.6 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "ISL8117FRZ"
+			(at 289.56 363.22 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 289.56 359.41 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 289.56 359.41 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "U5") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Switching:ISL8117FRZ")
+		(at 289.56 429.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b425d99-d842-41c0-9c9e-34f46caa8394")
+		(property "Reference" "U6"
+			(at 289.56 425.45 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "ISL8117FRZ"
+			(at 289.56 433.07 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 289.56 429.26 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 289.56 429.26 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "U6") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 259.08 284.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b606178-6253-4a9d-9a70-d5d5a30281c3")
+		(property "Reference" "R12"
+			(at 259.08 280.67 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "100k"
+			(at 259.08 288.29 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 259.08 284.48 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 259.08 284.48 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "R12") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 259.08 298.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74f063c1-46fd-42cc-b713-183c2e0e830d")
+		(property "Reference" "C9"
+			(at 259.08 294.64 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "10nF"
+			(at 259.08 302.26 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 259.08 298.45 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 259.08 298.45 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "C9") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 259.08 307.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "954bd97e-fb3e-477b-93c6-a66c5f4e8d10")
+		(property "Reference" "R13"
+			(at 259.08 303.53 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "10k"
+			(at 259.08 311.15 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 259.08 307.34 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 259.08 307.34 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "R13") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 259.08 317.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "91d1a3bd-f862-4784-b238-936a0ca4a638")
+		(property "Reference" "R14"
+			(at 259.08 313.69 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "4.7k"
+			(at 259.08 321.31 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 259.08 317.5 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 259.08 317.5 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "R14") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NMOS")
+		(at 330.2 279.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b334ca29-aadc-49f2-ab64-7633887a915b")
+		(property "Reference" "Q3"
+			(at 330.2 275.59 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "BSC010NE2LS"
+			(at 330.2 283.21 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 330.2 279.4 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 330.2 279.4 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "Q3") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NMOS")
+		(at 330.2 299.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cfb8af52-3f37-4de7-a6c6-7bae3f51c4ed")
+		(property "Reference" "Q4"
+			(at 330.2 295.91 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "BSC010NE2LS"
+			(at 330.2 303.53 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 330.2 299.72 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 330.2 299.72 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "Q4") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 320.04 275.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "04f50bbe-25fe-4ed6-a1fa-94c66014da35")
+		(property "Reference" "C10"
+			(at 320.04 271.78 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "100nF"
+			(at 320.04 279.4 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 320.04 275.59 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 320.04 275.59 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "C10") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 355.6 288.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6131eca-8649-469a-b285-6633701741e9")
+		(property "Reference" "L2"
+			(at 355.6 284.48 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "220nH"
+			(at 355.6 292.1 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 355.6 288.29 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 355.6 288.29 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "L2") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 374.65 288.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95fa303b-69e7-4aa7-a120-2765035c7f0f")
+		(property "Reference" "C11"
+			(at 374.65 284.48 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "560uF"
+			(at 374.65 292.1 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 374.65 288.29 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 374.65 288.29 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "C11") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 259.08 354.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f7c1753-f45b-4193-8941-428df1697220")
+		(property "Reference" "R15"
+			(at 259.08 350.52 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "100k"
+			(at 259.08 358.14 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 259.08 354.33 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 259.08 354.33 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "R15") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 259.08 368.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1abffe7-0131-4b06-8e5b-5eb11a2d1287")
+		(property "Reference" "C12"
+			(at 259.08 364.49 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "10nF"
+			(at 259.08 372.11 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 259.08 368.3 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 259.08 368.3 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "C12") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 259.08 377.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e74f7e7-a5bd-4af7-855e-170b9df3292b")
+		(property "Reference" "R16"
+			(at 259.08 373.38 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "10k"
+			(at 259.08 381 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 259.08 377.19 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 259.08 377.19 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "R16") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 259.08 387.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9af0d803-020c-4199-8bb2-df4f29615a12")
+		(property "Reference" "R17"
+			(at 259.08 383.54 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "4.7k"
+			(at 259.08 391.16 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 259.08 387.35 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 259.08 387.35 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "R17") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NMOS")
+		(at 330.2 349.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99c92aa3-920d-4712-bdcf-cf35d44eeef8")
+		(property "Reference" "Q5"
+			(at 330.2 345.44 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "BSC010NE2LS"
+			(at 330.2 353.06 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 330.2 349.25 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 330.2 349.25 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "Q5") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NMOS")
+		(at 330.2 369.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a843d0f-a5be-452e-a1ff-bd0c7b70d96c")
+		(property "Reference" "Q6"
+			(at 330.2 365.76 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "BSC010NE2LS"
+			(at 330.2 373.38 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 330.2 369.57 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 330.2 369.57 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "Q6") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 320.04 345.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef4ea96a-584b-47e5-9abf-915808b50d06")
+		(property "Reference" "C13"
+			(at 320.04 341.63 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "100nF"
+			(at 320.04 349.25 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 320.04 345.44 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 320.04 345.44 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "C13") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 355.6 358.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55804d04-4762-46bd-b146-9870e83b3356")
+		(property "Reference" "L3"
+			(at 355.6 354.33 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "220nH"
+			(at 355.6 361.95 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 355.6 358.14 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 355.6 358.14 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "L3") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 374.65 358.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "741c446f-9df1-4449-bbe1-13e8110081da")
+		(property "Reference" "C14"
+			(at 374.65 354.33 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "560uF"
+			(at 374.65 361.95 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 374.65 358.14 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 374.65 358.14 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "C14") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 259.08 424.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f8646af2-fd99-4bcf-a114-d375893c1513")
+		(property "Reference" "R18"
+			(at 259.08 420.37 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "100k"
+			(at 259.08 427.99 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 259.08 424.18 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 259.08 424.18 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "R18") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 259.08 438.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2572f1e4-f1a6-4f49-8894-a06aaee3abf0")
+		(property "Reference" "C15"
+			(at 259.08 434.34 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "10nF"
+			(at 259.08 441.96 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 259.08 438.15 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 259.08 438.15 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "C15") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 259.08 447.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96658c17-8e77-4fcf-a237-93420b302179")
+		(property "Reference" "R19"
+			(at 259.08 443.23 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "10k"
+			(at 259.08 450.85 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 259.08 447.04 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 259.08 447.04 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "R19") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 259.08 457.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65f7cd38-5f6d-48c0-8ec0-ce28d52710ef")
+		(property "Reference" "R20"
+			(at 259.08 453.39 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "4.7k"
+			(at 259.08 461.01 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 259.08 457.2 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 259.08 457.2 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "R20") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NMOS")
+		(at 330.2 419.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b34324b-e607-4254-b379-2c6341046284")
+		(property "Reference" "Q7"
+			(at 330.2 415.29 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "BSC010NE2LS"
+			(at 330.2 422.91 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 330.2 419.1 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 330.2 419.1 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "Q7") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NMOS")
+		(at 330.2 439.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "010a5f12-cfd8-4199-9bf3-26d7a9a81dcb")
+		(property "Reference" "Q8"
+			(at 330.2 435.61 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "BSC010NE2LS"
+			(at 330.2 443.23 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 330.2 439.42 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 330.2 439.42 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "Q8") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 320.04 415.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e969cf8-9f0d-4197-b446-85bcd8487599")
+		(property "Reference" "C16"
+			(at 320.04 411.48 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "100nF"
+			(at 320.04 419.1 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 320.04 415.29 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 320.04 415.29 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "C16") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 355.6 427.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43eb56ba-cf25-4f6e-8671-b412e973eebd")
+		(property "Reference" "L4"
+			(at 355.6 424.18 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "220nH"
+			(at 355.6 431.8 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 355.6 427.99 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 355.6 427.99 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "L4") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 374.65 427.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "694238b2-9414-4bed-8bff-25c9d2e90307")
+		(property "Reference" "C17"
+			(at 374.65 424.18 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "560uF"
+			(at 374.65 431.8 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 374.65 427.99 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 374.65 427.99 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "C17") (unit 1)
+				)
+			)
+		)
+	)
+	(label "+5V"
+		(at 274.32 281.94 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "5cc56a24-18b6-4f66-98f4-5b314c5f0f0b")
+	)
+	(label "VRM_CLKOUT2"
+		(at 274.32 289.56 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "fc25a1ad-e4c8-4f79-a224-d6ceadcbb168")
+	)
+	(label "VRM_PGOOD"
+		(at 274.32 292.1 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "dc09e187-4828-40be-9475-07d5b1beea35")
+	)
+	(label "VRM_SYNC"
+		(at 274.32 294.64 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "46983c2d-f7c5-4998-aacc-cde7a72553c6")
+	)
+	(label "VRM_FB2"
+		(at 304.8 281.94 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "40c2f6a3-063d-4bb2-a387-541769de361a")
+	)
+	(label "VRM_LGATE2"
+		(at 304.8 287.02 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "042d8957-e829-45cd-98f0-80f32cd6364b")
+	)
+	(label "VRM_ISEN2"
+		(at 304.8 289.56 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "8bba4da9-4b95-4da7-91e0-34903848d909")
+	)
+	(label "VRM_PHASE2"
+		(at 304.8 292.1 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "a86fab09-7a8d-4001-9b24-3c3bb8398c8e")
+	)
+	(label "VRM_UGATE2"
+		(at 304.8 294.64 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "5196ff86-f0be-44c3-b009-b1455752af8d")
+	)
+	(label "VRM_BOOT2"
+		(at 304.8 297.18 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "f9f61d4f-3857-416d-9e60-aca4d6d8cc72")
+	)
+	(label "+5V"
+		(at 289.56 274.32 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "2ef0119b-24f2-426c-852f-1ca18600fb30")
+	)
+	(label "+12V"
+		(at 292.1 274.32 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "22b57dfe-a8bd-4a88-b20b-d2eeb4a7d730")
+	)
+	(label "GND"
+		(at 292.1 304.8 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "af5224b6-e1bc-4d7c-8648-460599439f5e")
+	)
+	(label "GND"
+		(at 289.56 304.8 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "f05f74ff-b37d-454f-ab37-7cd0350979e5")
+	)
+	(label "+5V"
+		(at 284.48 304.8 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "4d25c9ae-861d-4125-ac78-4da1c63e6324")
+	)
+	(label "VRM_RT2"
+		(at 274.32 284.48 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "78951571-6a5b-424e-ab95-a8a94e36903d")
+	)
+	(label "VRM_SSTRK2"
+		(at 274.32 287.02 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "8f7f121c-74f3-4046-8017-b31350fc3205")
+	)
+	(label "VRM_RT2"
+		(at 259.08 280.67 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "c92776b8-a7cc-4360-8642-f9c56af58fc3")
+	)
+	(label "GND"
+		(at 259.08 288.29 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "ae0baf97-240b-4f3f-bec5-18696c3bcf0c")
+	)
+	(label "VRM_SSTRK2"
+		(at 259.08 294.64 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "f6e25067-d4ab-48ee-8d42-05e75880f6dc")
+	)
+	(label "GND"
+		(at 259.08 302.26 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "fca48135-4775-474f-8570-2003de80dcf7")
+	)
+	(label "VCORE"
+		(at 259.08 303.53 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "6e502ca8-43a0-41e5-b7dd-92b5a292c982")
+	)
+	(label "VRM_FB2"
+		(at 259.08 311.15 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "b47d02e1-a309-4a80-9cb9-8c9738f2041b")
+	)
+	(label "VRM_FB2"
+		(at 259.08 313.69 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "e65a5e09-567b-4c1a-be1d-205b421c2d9e")
+	)
+	(label "GND"
+		(at 259.08 321.31 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "36d093b1-9814-4844-ae5c-f58069b10be5")
+	)
+	(label "+12V"
+		(at 332.74 274.32 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "24d3245a-8b9e-48bd-8f73-4ba9a87d3fcb")
+	)
+	(label "VRM_UGATE2"
+		(at 325.12 279.4 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "31d04c72-92c0-4d50-b8ba-2d429095a884")
+	)
+	(label "VRM_PHASE2"
+		(at 332.74 284.48 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "437daefe-fde6-4c27-8d3f-0168fe00334d")
+	)
+	(label "VRM_PHASE2"
+		(at 332.74 294.64 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "0e315fab-1e38-4ef1-b65f-e4c0c58e2fff")
+	)
+	(label "VRM_LGATE2"
+		(at 325.12 299.72 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "fe12b284-0988-41ee-b3d0-8e3707b9df45")
+	)
+	(label "GND"
+		(at 332.74 304.8 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "bae5d9b4-e09c-48a9-af8d-1e21ac68fe0f")
+	)
+	(label "VRM_BOOT2"
+		(at 320.04 271.78 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "d30eb0a9-090a-46e5-8161-cc7378b4f8e9")
+	)
+	(label "VRM_PHASE2"
+		(at 320.04 279.4 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "2c3677fa-7e64-42c0-a695-d3ba43df898f")
+	)
+	(label "VRM_PHASE2"
+		(at 355.6 284.48 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "e10d865b-4779-4483-be13-13b8bb2d49c8")
+	)
+	(label "VCORE"
+		(at 355.6 292.1 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "a898a214-4444-4f88-938d-e1488f982f96")
+	)
+	(label "VCORE"
+		(at 374.65 284.48 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "22bf7a28-46e7-45e6-bf1e-fd4e45bddbe4")
+	)
+	(label "GND"
+		(at 374.65 292.1 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "48ddd68c-a10f-40dd-a15a-656f2f8ab6db")
+	)
+	(label "+5V"
+		(at 274.32 351.79 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "1f3d6180-1d33-4f3b-95a8-c521afd45808")
+	)
+	(label "VRM_CLKOUT3"
+		(at 274.32 359.41 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "c82180ce-7ca0-4259-96f5-f0586f5af491")
+	)
+	(label "VRM_PGOOD"
+		(at 274.32 361.95 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "f096b636-382d-4cf5-b0e7-c142f117cd32")
+	)
+	(label "VRM_SYNC"
+		(at 274.32 364.49 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "78b98eab-7731-4105-ad56-0881c4093361")
+	)
+	(label "VRM_RT3"
+		(at 274.32 354.33 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "54815509-7063-46ef-a93c-a3a6953f4279")
+	)
+	(label "VRM_SSTRK3"
+		(at 274.32 356.87 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "5fe722f5-afb7-4773-90ad-74406e72f301")
+	)
+	(label "VRM_FB3"
+		(at 304.8 351.79 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "a078d638-a4b2-4b70-b846-cb76ccc63298")
+	)
+	(label "VRM_LGATE3"
+		(at 304.8 356.87 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "1969ae80-0b47-4d8d-b28d-b2486a99dfb9")
+	)
+	(label "VRM_ISEN3"
+		(at 304.8 359.41 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "12e18b2c-76d3-46a5-8b93-0d208e135152")
+	)
+	(label "VRM_PHASE3"
+		(at 304.8 361.95 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "64e916d6-c17b-4fa9-9513-58860e1ce921")
+	)
+	(label "VRM_BOOT3"
+		(at 304.8 367.03 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "db4e02d1-ae1f-442e-9981-14206bf6a5ed")
+	)
+	(label "+5V"
+		(at 289.56 344.17 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "96f1e476-24bd-4d39-948e-2919dd611d3b")
+	)
+	(label "+12V"
+		(at 292.1 344.17 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "d86394e4-5261-406d-90a5-01b969232d4e")
+	)
+	(label "GND"
+		(at 292.1 374.65 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "89c37bbb-b6cf-4b34-a533-788a14af9afa")
+	)
+	(label "GND"
+		(at 289.56 374.65 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "5bb34c78-d3fb-48ef-9e6d-c84ce7d5ce2e")
+	)
+	(label "+5V"
+		(at 284.48 374.65 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "050a067d-18fd-43ec-836d-61cd6bbb0325")
+	)
+	(label "VRM_RT3"
+		(at 259.08 350.52 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "56c4e7ec-f618-4b57-bd9d-d1e2283237db")
+	)
+	(label "GND"
+		(at 259.08 358.14 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "47f8574d-be0f-4c92-8c32-f8399d891ead")
+	)
+	(label "VRM_SSTRK3"
+		(at 259.08 364.49 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "be1985f0-eeac-4671-8fe5-05fb76435b8e")
+	)
+	(label "GND"
+		(at 259.08 372.11 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "0d4befe8-0490-47ef-a0a7-0b8e17a9de5b")
+	)
+	(label "VCORE"
+		(at 259.08 373.38 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "ee1ea5c7-9219-41b7-9d42-168f5d8e6ccc")
+	)
+	(label "VRM_FB3"
+		(at 259.08 381 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "a9303fe7-33f1-402d-b27b-a4bf26cfe3f7")
+	)
+	(label "VRM_FB3"
+		(at 259.08 383.54 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "762f4793-aa1f-474d-8ba0-ffe630009974")
+	)
+	(label "GND"
+		(at 259.08 391.16 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "9d952927-ae3b-4cda-801d-045d7c10c7db")
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 289.56 341.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c83cf85-157f-4271-a9bf-63193cfb3e61")
+		(property "Reference" "#PWR"
+			(at 289.56 335.28 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "+5V"
+			(at 289.56 336.55 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 289.56 341.63 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 289.56 341.63 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWR") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 292.1 341.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a7a6ced-54d5-4390-a306-37e90440fae7")
+		(property "Reference" "#PWR"
+			(at 292.1 335.28 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "+12V"
+			(at 292.1 336.55 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 292.1 341.63 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 292.1 341.63 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWR") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 289.56 377.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9715885-fb7d-4002-9dde-866d08704aef")
+		(property "Reference" "#PWR"
+			(at 289.56 383.54 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 289.56 382.27 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 289.56 377.19 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 289.56 377.19 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWR") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 292.1 377.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46318d80-d628-4a67-bd30-770441ca7425")
+		(property "Reference" "#PWR"
+			(at 292.1 383.54 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 292.1 382.27 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 292.1 377.19 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 292.1 377.19 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWR") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 284.48 377.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ead52db9-3797-4b7c-a49a-c8e9ebd3c216")
+		(property "Reference" "#PWR"
+			(at 284.48 370.84 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "+5V"
+			(at 284.48 372.11 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 284.48 377.19 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 284.48 377.19 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWR") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 259.08 361.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a762e8f-ebd7-42ca-b716-01e82d37e555")
+		(property "Reference" "#PWR"
+			(at 259.08 368.3 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 259.08 367.03 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 259.08 361.95 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 259.08 361.95 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWR") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 259.08 372.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28d95131-5bd5-4b6f-accf-3955a0f1dfa5")
+		(property "Reference" "#PWR"
+			(at 259.08 378.46 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 259.08 377.19 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 259.08 372.11 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 259.08 372.11 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWR") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 259.08 391.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d35d07a-1313-4165-810a-09332a8f260c")
+		(property "Reference" "#PWR"
+			(at 259.08 397.51 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 259.08 396.24 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 259.08 391.16 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 259.08 391.16 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWR") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 330.2 344.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67582cee-8c0d-4d2f-97be-6fec8fc7e660")
+		(property "Reference" "#PWR"
+			(at 330.2 337.82 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "+12V"
+			(at 330.2 339.09 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 330.2 344.17 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 330.2 344.17 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWR") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 330.2 374.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a785cb74-0226-45b5-8558-3477a68dccf7")
+		(property "Reference" "#PWR"
+			(at 330.2 381 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 330.2 379.73 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 330.2 374.65 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 330.2 374.65 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWR") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 374.65 361.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d96eae5f-da24-4428-b255-372dd6983ab9")
+		(property "Reference" "#PWR"
+			(at 374.65 368.3 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 374.65 367.03 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 374.65 361.95 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 374.65 361.95 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWR") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 289.56 411.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "429b4716-8495-4e0d-a10a-f0f165f0f9a2")
+		(property "Reference" "#PWR"
+			(at 289.56 405.13 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "+5V"
+			(at 289.56 406.4 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 289.56 411.48 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 289.56 411.48 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWR") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 292.1 411.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c1f406f-2d0e-4415-9782-9530809ee6f1")
+		(property "Reference" "#PWR"
+			(at 292.1 405.13 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "+12V"
+			(at 292.1 406.4 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 292.1 411.48 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 292.1 411.48 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWR") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 289.56 447.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4ccf8eb-5054-4f30-90a5-280937bc5904")
+		(property "Reference" "#PWR"
+			(at 289.56 453.39 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 289.56 452.12 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 289.56 447.04 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 289.56 447.04 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWR") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 292.1 447.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f9f03ce-d144-47ef-847d-0898d7cc6781")
+		(property "Reference" "#PWR"
+			(at 292.1 453.39 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 292.1 452.12 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 292.1 447.04 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 292.1 447.04 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWR") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 284.48 447.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56126e80-37e7-48f2-ac0e-55717526b1d4")
+		(property "Reference" "#PWR"
+			(at 284.48 440.69 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "+5V"
+			(at 284.48 441.96 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 284.48 447.04 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 284.48 447.04 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWR") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 259.08 431.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35964f3d-66fa-4a38-bffb-b13947682a43")
+		(property "Reference" "#PWR"
+			(at 259.08 438.15 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 259.08 436.88 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 259.08 431.8 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 259.08 431.8 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWR") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 259.08 441.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92cea30b-3c82-4eba-83fb-bde31cc81f91")
+		(property "Reference" "#PWR"
+			(at 259.08 448.31 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 259.08 447.04 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 259.08 441.96 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 259.08 441.96 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWR") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 259.08 461.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "91484517-0523-4526-96dd-080c47918b16")
+		(property "Reference" "#PWR"
+			(at 259.08 467.36 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 259.08 466.09 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 259.08 461.01 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 259.08 461.01 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWR") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 330.2 414.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06944cad-a5cc-4d5a-b0c1-1ae920f98859")
+		(property "Reference" "#PWR"
+			(at 330.2 407.67 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "+12V"
+			(at 330.2 408.94 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 330.2 414.02 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 330.2 414.02 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWR") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 330.2 444.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "688af91f-b2be-41d9-8915-538d8de7f86f")
+		(property "Reference" "#PWR"
+			(at 330.2 450.85 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 330.2 449.58 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 330.2 444.5 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 330.2 444.5 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWR") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 374.65 431.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a882c738-0325-491d-a7c9-c36c327652cd")
+		(property "Reference" "#PWR"
+			(at 374.65 438.15 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 374.65 436.88 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 374.65 431.8 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 374.65 431.8 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWR") (unit 1)
+				)
+			)
+		)
+	)
+	(label "VRM_RT3"
+		(at 259.08 350.52 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "1681574f-8d23-442e-aca3-9f03d02e373d")
+	)
+	(label "VRM_SSTRK3"
+		(at 259.08 364.49 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "5b9be474-6b96-414f-9996-40a6f3eea87a")
+	)
+	(label "VCORE"
+		(at 259.08 373.38 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "e47b5930-2deb-449f-9d34-f75e696f40e0")
+	)
+	(label "VRM_FB3"
+		(at 259.08 381 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "8fe51930-2354-4414-a47f-7e704ad281a7")
+	)
+	(label "VRM_FB3"
+		(at 259.08 383.54 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "11bb4653-abb8-4c2f-bce8-92c235c85c9c")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 259.08 358.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8fa170f9-cfa4-4459-b80c-c882839a774b")
+		(property "Reference" "#PWR"
+			(at 259.08 364.49 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 259.08 363.22 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 259.08 358.14 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 259.08 358.14 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWR") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 259.08 372.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42e7d084-4100-42ed-9073-b7537ba52b58")
+		(property "Reference" "#PWR"
+			(at 259.08 378.46 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 259.08 377.19 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 259.08 372.11 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 259.08 372.11 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWR") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 259.08 391.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62721c71-fce1-45ae-8cc6-5b57939a6166")
+		(property "Reference" "#PWR"
+			(at 259.08 397.51 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 259.08 396.24 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 259.08 391.16 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 259.08 391.16 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWR") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 330.2 344.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35404776-97b8-4012-a2e1-ba37ba92c2ab")
+		(property "Reference" "#PWR"
+			(at 330.2 337.82 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "+12V"
+			(at 330.2 339.09 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 330.2 344.17 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 330.2 344.17 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWR") (unit 1)
+				)
+			)
+		)
+	)
+	(label "VRM_PHASE3"
+		(at 330.2 354.33 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "8470b2f9-51af-4671-ae6c-6a48232964d0")
+	)
+	(label "VRM_PHASE3"
+		(at 330.2 364.49 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "f312169a-bb8c-4bd0-aa81-6eb450f758ef")
+	)
+	(label "VRM_LGATE3"
+		(at 322.58 369.57 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "0e9078fe-2fa4-4ce2-ab72-36a48148fd97")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 330.2 374.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "edde3756-5930-4de0-8bae-7f9dde3fc215")
+		(property "Reference" "#PWR"
+			(at 330.2 381 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 330.2 379.73 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 330.2 374.65 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 330.2 374.65 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWR") (unit 1)
+				)
+			)
+		)
+	)
+	(label "VRM_BOOT3"
+		(at 320.04 341.63 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "86d5ff82-29d9-43d4-aeea-8337262b9a11")
+	)
+	(label "VRM_PHASE3"
+		(at 320.04 349.25 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "262a25a6-e180-4049-87be-762d30a74c62")
+	)
+	(label "VRM_PHASE3"
+		(at 355.6 354.33 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "df47b231-94c8-488a-a91c-83fc2f74ec82")
+	)
+	(label "VCORE"
+		(at 355.6 361.95 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "9eedc1d1-a134-49cf-85e0-d1132f3b94a5")
+	)
+	(label "VCORE"
+		(at 374.65 354.33 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "b1e8c25e-0c1b-4530-aa94-fe639ec6e1df")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 374.65 361.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97c92eea-67bb-4b1f-ba06-3b34029775f2")
+		(property "Reference" "#PWR"
+			(at 374.65 368.3 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 374.65 367.03 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 374.65 361.95 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 374.65 361.95 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWR") (unit 1)
+				)
+			)
+		)
+	)
+	(label "VRM_RT4"
+		(at 259.08 420.37 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "080aa89f-1c3e-41e0-bc52-bdc256161b69")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 259.08 427.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5bdac318-a0dd-4560-970a-dd2a56e30d47")
+		(property "Reference" "#PWR"
+			(at 259.08 434.34 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 259.08 433.07 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 259.08 427.99 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 259.08 427.99 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWR") (unit 1)
+				)
+			)
+		)
+	)
+	(label "VRM_SSTRK4"
+		(at 259.08 434.34 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "2bd4b023-81d9-4271-84ee-650c7f014c28")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 259.08 441.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae0c1ebd-8335-46b4-a97e-a8b209ae6be2")
+		(property "Reference" "#PWR"
+			(at 259.08 448.31 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 259.08 447.04 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 259.08 441.96 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 259.08 441.96 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWR") (unit 1)
+				)
+			)
+		)
+	)
+	(label "VCORE"
+		(at 259.08 443.23 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "955cf30b-b44c-4f44-b7a7-1a1af3ccf76e")
+	)
+	(label "VRM_FB4"
+		(at 259.08 450.85 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "0e4af427-32b1-45bc-b787-b9b42ea86e66")
+	)
+	(label "VRM_FB4"
+		(at 259.08 453.39 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "db747265-bc6f-4782-aadd-bc501861e396")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 259.08 461.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c5e0d80-09fd-4dc4-b1ca-d00f065aa28d")
+		(property "Reference" "#PWR"
+			(at 259.08 467.36 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 259.08 466.09 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 259.08 461.01 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 259.08 461.01 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWR") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 330.2 414.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "172e3e3d-f4c9-4e4b-9501-4336ed0f1703")
+		(property "Reference" "#PWR"
+			(at 330.2 407.67 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "+12V"
+			(at 330.2 408.94 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 330.2 414.02 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 330.2 414.02 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWR") (unit 1)
+				)
+			)
+		)
+	)
+	(label "VRM_PHASE4"
+		(at 330.2 424.18 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "904b0639-c063-47bd-a377-3b1dfd7f2744")
+	)
+	(label "VRM_PHASE4"
+		(at 330.2 434.34 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "f8c4bf11-5d10-4134-b976-76e6e4ec60de")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 330.2 444.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98604f5f-5b1b-4494-bd21-58cd0c82a106")
+		(property "Reference" "#PWR"
+			(at 330.2 450.85 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 330.2 449.58 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 330.2 444.5 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 330.2 444.5 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWR") (unit 1)
+				)
+			)
+		)
+	)
+	(label "VRM_BOOT4"
+		(at 320.04 411.48 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "8a6b2edf-4759-4513-b9c2-3c6f24a9c845")
+	)
+	(label "VRM_PHASE4"
+		(at 320.04 419.1 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "c6f27af8-0e20-429d-9c29-fa46ccf70713")
+	)
+	(label "VRM_PHASE4"
+		(at 355.6 424.18 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "b3c52100-ea31-4709-9007-fadd96686740")
+	)
+	(label "VCORE"
+		(at 355.6 431.8 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "4749249b-4d76-43b5-90e6-e43b13bd2bbe")
+	)
+	(label "VCORE"
+		(at 374.65 424.18 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "e72fbaef-cf52-46ac-b7bd-b5912fa48812")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 374.65 431.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0bb0fb0-c9cf-44f0-a03f-f1694e8907d5")
+		(property "Reference" "#PWR"
+			(at 374.65 438.15 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 374.65 436.88 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 374.65 431.8 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 374.65 431.8 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWR") (unit 1)
+				)
+			)
+		)
+	)
+	(label "VRM_RT4"
+		(at 271.78 434.34 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "f2a6ee49-5bb7-44e4-ab57-b822349d62ab")
+	)
+	(label "VRM_SSTRK4"
+		(at 271.78 431.8 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "2c444dbc-09a5-4725-b921-f7daeb3ca165")
+	)
+	(label "VRM_PGOOD"
+		(at 271.78 426.72 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "04e3bb55-e307-4eeb-935d-fa22f1af7a38")
+	)
+	(label "VRM_SYNC"
+		(at 271.78 424.18 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "48f6b353-4a14-45a2-bc8f-8dcf6043bff1")
+	)
+	(label "VRM_FB4"
+		(at 307.34 436.88 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "57bc760a-884c-4c62-b658-61d91c31db19")
+	)
+	(label "VRM_PHASE4"
+		(at 307.34 426.72 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "1509113d-0b68-4463-bcdb-c8c7a43c5c26")
+	)
+	(label "VRM_BOOT4"
+		(at 307.34 421.64 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "946cb101-e92e-4d79-acb9-0ed3c1d91d21")
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 289.56 411.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "816d231c-fd3e-46c5-afee-0aa9791883f6")
+		(property "Reference" "#PWR"
+			(at 289.56 405.13 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "+5V"
+			(at 289.56 406.4 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 289.56 411.48 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 289.56 411.48 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWR") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 292.1 411.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b89a9c01-3bba-4c55-9c54-be8b594828f0")
+		(property "Reference" "#PWR"
+			(at 292.1 405.13 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "+12V"
+			(at 292.1 406.4 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 292.1 411.48 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 292.1 411.48 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWR") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 284.48 447.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10340808-83f4-48a8-81ac-ad3e21856300")
+		(property "Reference" "#PWR"
+			(at 284.48 440.69 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "+5V"
+			(at 284.48 441.96 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 284.48 447.04 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 284.48 447.04 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWR") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 274.32 421.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc9b18e3-b6fd-4d45-bd4f-d7d698f5ad48")
+		(property "Reference" "#PWR57a2"
+			(at 274.32 415.29 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "+5V"
+			(at 274.32 416.56 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 274.32 421.64 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 274.32 421.64 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWR57a2") (unit 1)
+				)
+			)
+		)
+	)
+	(label "VRM_UGATE3"
+		(at 304.8 354.33 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "c33e3240-58cf-4ff0-a747-9480122ba34a")
+	)
+	(label "VRM_UGATE4"
+		(at 304.8 424.18 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "f0ab7741-325a-4456-988a-e87a645382a1")
+	)
+	(label "VRM_CLKOUT4"
+		(at 274.32 429.26 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "a39d23b3-0f60-4522-9915-1950e6031044")
+	)
+	(label "VRM_LGATE4"
+		(at 304.8 431.8 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "ec7378de-9765-45be-b1fd-0507891e0d8b")
+	)
+	(label "VRM_ISEN4"
+		(at 304.8 429.26 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "97fada96-5479-4f91-b622-8103791f5d11")
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 274.32 421.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "622540b5-8a1e-4876-ac54-8ddb121aa228")
+		(property "Reference" "#PWRec1e"
+			(at 274.32 415.29 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "+5V"
+			(at 274.32 416.56 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 274.32 421.64 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 274.32 421.64 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "Ijr-X1-Core"
+				(path "/0a8e2d86-540d-4bc7-908e-89ff2a8b35b6"
+					(reference "#PWRec1e") (unit 1)
+				)
+			)
+		)
 	)
 	(sheet_instances
 		(path "/"

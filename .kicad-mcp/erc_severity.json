@@ -1,0 +1,17 @@
+{
+  "power_pin_not_driven": "error",
+  "pin_not_connected": "error",
+  "pin_to_pin_warning": "error",
+  "unresolved_variable": "error",
+  "missing_input_pin_connection": "warning",
+  "missing_power_pin_connection": "error",
+  "missing_power_symbol": "error",
+  "bus_conflict": "error",
+  "label_conflict": "error",
+  "global_label_conflict": "error",
+  "hierarchical_label_conflict": "error",
+  "duplicate_reference": "error",
+  "invalid_reference": "error",
+  "extra_units": "error",
+  "no_connect_connected": "error"
+}

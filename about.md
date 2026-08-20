@@ -294,8 +294,8 @@ User installs their own RAM modules. No soldered RAM on board.
 | GPIO header J_GPIO (2×25) | ✅ Complete |
 | SWD header J_SWD (2×3) | ✅ Complete |
 | PWR_FLAG ×2 | ✅ Complete |
-| **ERC violations** | **0 ✅** |
-| ATX power input | ⬜ Next |
+| **ERC violations** | **0 ✅** (27 components, 85 nets) |
+| ATX power input (J_ATX24/J_EPS8/J_PCIE1/J_PCIE2/J_PWRBTN/J_PWRLED/J_PWROK/R8) | ✅ Complete |
 | CPU VRM | ⬜ |
 | SO-DIMM slots | ⬜ |
 | M.2 slots | ⬜ |
