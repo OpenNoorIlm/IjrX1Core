@@ -2,37 +2,87 @@
   "status": "ready",
   "schematic_path": "/home/bismillah/Downloads/Ijr-X1-Core/Ijr-X1-Core.kicad_sch",
   "before_snapshot": "/home/bismillah/Downloads/Ijr-X1-Core/.kicad-mcp/visual-diff-1c6b2012c88e13d4-before.kicad_sch",
-  "before_sha256": "266887c775ec2dcbc3c2c7b713aff0031cb87b27570423dfb50b048f5f01c5d6",
-  "after_sha256": "b5eef47c92cf3147612e1f9450bfba4e58a8917db79bd39409c1ce4e205b1510",
+  "before_sha256": "e69eaaae79f99c7388899089e6fdda6dad18bb6d15ea26a46ebca50ca3160663",
+  "after_sha256": "4e7eb6f06575087f4f0b707bab4837e4164aee0b23b040e015ef82141b02af79",
   "changed_objects": [
     {
-      "id": "symbol:J_DIMM2:unit=1",
+      "id": "symbol:J_DIMM1:unit=1",
       "kind": "symbol",
-      "change": "added",
-      "before": null,
-      "after": {
+      "change": "removed",
+      "before": {
         "kind": "symbol",
         "lib_id": "dfdtc_Connector:DDR4_SODIMM_CONN260",
-        "reference": "J_DIMM2",
+        "reference": "J_DIMM1",
         "value": "DDR4_SO-DIMM_260",
         "footprint": "",
         "properties": {
-          "Reference": "J_DIMM2",
+          "Reference": "J_DIMM1",
           "Value": "DDR4_SO-DIMM_260",
           "Footprint": "",
           "Datasheet": "~"
         },
         "dnp": false,
         "in_bom": true,
-        "x": 580.39,
+        "x": 459.74,
         "y": 100.33,
+        "rotation": 0,
+        "unit": 1
+      },
+      "after": null
+    },
+    {
+      "id": "symbol:J_DIMM1:unit=1:occurrence=1",
+      "kind": "symbol",
+      "change": "added",
+      "before": null,
+      "after": {
+        "kind": "symbol",
+        "lib_id": "dfdtc_Connector:DDR4_SODIMM_CONN260",
+        "reference": "J_DIMM1",
+        "value": "DDR4_SO-DIMM_260",
+        "footprint": "",
+        "properties": {
+          "Reference": "J_DIMM1",
+          "Value": "DDR4_SO-DIMM_260",
+          "Footprint": "",
+          "Datasheet": "~"
+        },
+        "dnp": false,
+        "in_bom": true,
+        "x": 459.74,
+        "y": 100.33,
+        "rotation": 0,
+        "unit": 1
+      }
+    },
+    {
+      "id": "symbol:J_DIMM1:unit=1:occurrence=2",
+      "kind": "symbol",
+      "change": "added",
+      "before": null,
+      "after": {
+        "kind": "symbol",
+        "lib_id": "dfdtc_Connector:DDR4_SODIMM_CONN260",
+        "reference": "J_DIMM1",
+        "value": "DDR4_SODIMM_260",
+        "footprint": "",
+        "properties": {
+          "Reference": "J_DIMM1",
+          "Value": "DDR4_SODIMM_260",
+          "Footprint": "",
+          "Datasheet": "~"
+        },
+        "dnp": false,
+        "in_bom": true,
+        "x": 500.38,
+        "y": 299.72,
         "rotation": 0,
         "unit": 1
       }
     }
   ],
   "changed_refs": [
-    "J_DIMM2"
+    "J_DIMM1"
   ],
   "changed_nets": []
 }
