@@ -2,47 +2,37 @@
   "status": "ready",
   "schematic_path": "/home/bismillah/Downloads/Ijr-X1-Core/Ijr-X1-Core.kicad_sch",
   "before_snapshot": "/home/bismillah/Downloads/Ijr-X1-Core/.kicad-mcp/visual-diff-1c6b2012c88e13d4-before.kicad_sch",
-  "before_sha256": "842c1c0334352e806f57b1fa924ae7989450e82fb463bbe46ad47f8ee902954a",
-  "after_sha256": "804541e1274ebfb868555cc32dfbd5cbe0e75922c5b9bc9dd69f7f141758bf80",
+  "before_sha256": "266887c775ec2dcbc3c2c7b713aff0031cb87b27570423dfb50b048f5f01c5d6",
+  "after_sha256": "b5eef47c92cf3147612e1f9450bfba4e58a8917db79bd39409c1ce4e205b1510",
   "changed_objects": [
     {
-      "id": "label:label:VRM_FB4:occurrence=4",
-      "kind": "label",
-      "change": "modified",
-      "before": {
-        "kind": "label",
-        "label_type": "label",
-        "name": "VRM_FB4",
-        "x": 307.34,
-        "y": 436.88,
-        "rotation": 0
-      },
-      "after": {
-        "kind": "label",
-        "label_type": "label",
-        "name": "VRM_FB4",
-        "x": 259.08,
-        "y": 453.39,
-        "rotation": 0
-      }
-    },
-    {
-      "id": "label:label:VRM_FB4:occurrence=5",
-      "kind": "label",
+      "id": "symbol:J_DIMM2:unit=1",
+      "kind": "symbol",
       "change": "added",
       "before": null,
       "after": {
-        "kind": "label",
-        "label_type": "label",
-        "name": "VRM_FB4",
-        "x": 307.34,
-        "y": 436.88,
-        "rotation": 0
+        "kind": "symbol",
+        "lib_id": "dfdtc_Connector:DDR4_SODIMM_CONN260",
+        "reference": "J_DIMM2",
+        "value": "DDR4_SO-DIMM_260",
+        "footprint": "",
+        "properties": {
+          "Reference": "J_DIMM2",
+          "Value": "DDR4_SO-DIMM_260",
+          "Footprint": "",
+          "Datasheet": "~"
+        },
+        "dnp": false,
+        "in_bom": true,
+        "x": 580.39,
+        "y": 100.33,
+        "rotation": 0,
+        "unit": 1
       }
     }
   ],
-  "changed_refs": [],
-  "changed_nets": [
-    "VRM_FB4"
-  ]
+  "changed_refs": [
+    "J_DIMM2"
+  ],
+  "changed_nets": []
 }

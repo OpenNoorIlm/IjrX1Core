@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "dfdtc_connector") (type "KiCad") (uri "${KIPRJMOD}/external-libs/footprints/dfdtc_connector.pretty") (options "") (descr "dfdtc DDR4 SO-DIMM 260-pin footprint"))
+)

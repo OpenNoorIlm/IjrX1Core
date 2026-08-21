@@ -1,7 +1,7 @@
 {
     "$schema": "https://schemas.kicad.org/erc.v1.json",
     "coordinate_units": "mm",
-    "date": "2026-08-20T21:46:08",
+    "date": "2026-08-21T12:31:41",
     "ignored_checks": [
         {
             "description": "Global label only appears once in the schematic",
@@ -35,12 +35,12 @@
                     "description": "Pin not connected",
                     "items": [
                         {
-                            "description": "Symbol #PWR Pin 1 [Power input, Line]",
+                            "description": "Symbol J_DIMM1 Pin 1 [1, Unspecified, Line]",
                             "pos": {
-                                "x": 2.5908,
-                                "y": 3.6195
+                                "x": 4.5974,
+                                "y": 1.0033
                             },
-                            "uuid": "0e6996d2-b18a-4626-ae3d-06b2e0ce663a"
+                            "uuid": "3ff97a83-7caa-4ca7-aee9-42996e0bd846"
                         }
                     ],
                     "severity": "error",
@@ -50,87 +50,12 @@
                     "description": "Pin not connected",
                     "items": [
                         {
-                            "description": "Symbol #PWR Pin 1 [Power input, Line]",
+                            "description": "Symbol J_DIMM1 Pin 2 [2, Unspecified, Line]",
                             "pos": {
-                                "x": 2.5908,
-                                "y": 4.318
+                                "x": 4.5974,
+                                "y": 1.0287
                             },
-                            "uuid": "686d39e0-a297-41ca-9bd3-7d6addec32e1"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "pin_not_connected"
-                },
-                {
-                    "description": "Label not connected",
-                    "items": [
-                        {
-                            "description": "Label 'VRM_SYNC'",
-                            "pos": {
-                                "x": 2.7178,
-                                "y": 4.2418
-                            },
-                            "uuid": "48f6b353-4a14-45a2-bc8f-8dcf6043bff1"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "label_dangling"
-                },
-                {
-                    "description": "Label not connected",
-                    "items": [
-                        {
-                            "description": "Label 'VRM_PGOOD'",
-                            "pos": {
-                                "x": 2.7178,
-                                "y": 4.2672
-                            },
-                            "uuid": "04e3bb55-e307-4eeb-935d-fa22f1af7a38"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "label_dangling"
-                },
-                {
-                    "description": "Label not connected",
-                    "items": [
-                        {
-                            "description": "Label 'VRM_SSTRK4'",
-                            "pos": {
-                                "x": 2.7178,
-                                "y": 4.318
-                            },
-                            "uuid": "2c444dbc-09a5-4725-b921-f7daeb3ca165"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "label_dangling"
-                },
-                {
-                    "description": "Label not connected",
-                    "items": [
-                        {
-                            "description": "Label 'VRM_RT4'",
-                            "pos": {
-                                "x": 2.7178,
-                                "y": 4.3434
-                            },
-                            "uuid": "f2a6ee49-5bb7-44e4-ab57-b822349d62ab"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "label_dangling"
-                },
-                {
-                    "description": "Pin not connected",
-                    "items": [
-                        {
-                            "description": "Symbol U6 Pin 5 [SS/TRK, Passive, Line]",
-                            "pos": {
-                                "x": 2.7432,
-                                "y": 4.318
-                            },
-                            "uuid": "9b7c2ddb-cc7a-4494-82a1-9310da17ef65"
+                            "uuid": "c828c5c7-f11b-44ee-8b4e-57bf45434682"
                         }
                     ],
                     "severity": "error",
@@ -140,12 +65,12 @@
                     "description": "Pin not connected",
                     "items": [
                         {
-                            "description": "Symbol U6 Pin 4 [RT, Passive, Line]",
+                            "description": "Symbol J_DIMM1 Pin 3 [3, Unspecified, Line]",
                             "pos": {
-                                "x": 2.7432,
-                                "y": 4.3434
+                                "x": 4.5974,
+                                "y": 1.0541
                             },
-                            "uuid": "ba198fbc-4d52-499d-9f22-5826094dbfdb"
+                            "uuid": "4b22d0d3-ee96-4260-a41f-df1e58a1cded"
                         }
                     ],
                     "severity": "error",
@@ -155,12 +80,12 @@
                     "description": "Pin not connected",
                     "items": [
                         {
-                            "description": "Symbol #PWR Pin 1 [Power input, Line]",
+                            "description": "Symbol J_DIMM1 Pin 4 [4, Unspecified, Line]",
                             "pos": {
-                                "x": 2.8448,
-                                "y": 3.7719
+                                "x": 4.5974,
+                                "y": 1.0795
                             },
-                            "uuid": "56a9af4e-acd6-48b0-a89e-e5a406af5eab"
+                            "uuid": "525ed2b2-f50d-4558-bb74-296eb823c966"
                         }
                     ],
                     "severity": "error",
@@ -170,42 +95,12 @@
                     "description": "Pin not connected",
                     "items": [
                         {
-                            "description": "Symbol U6 Pin 15 [EXTBIAS, Input, Line]",
+                            "description": "Symbol J_DIMM1 Pin 5 [5, Unspecified, Line]",
                             "pos": {
-                                "x": 2.8448,
-                                "y": 4.445
+                                "x": 4.5974,
+                                "y": 1.1049
                             },
-                            "uuid": "8f8dd714-a07a-4af6-8744-68322c25fd2d"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "pin_not_connected"
-                },
-                {
-                    "description": "Input pin not driven by any Output pins",
-                    "items": [
-                        {
-                            "description": "Symbol U6 Pin 15 [EXTBIAS, Input, Line]",
-                            "pos": {
-                                "x": 2.8448,
-                                "y": 4.445
-                            },
-                            "uuid": "8f8dd714-a07a-4af6-8744-68322c25fd2d"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "pin_not_driven"
-                },
-                {
-                    "description": "Pin not connected",
-                    "items": [
-                        {
-                            "description": "Symbol #PWR Pin 1 [Power input, Line]",
-                            "pos": {
-                                "x": 2.8956,
-                                "y": 3.4163
-                            },
-                            "uuid": "40ba4da5-0532-4ddc-a9b0-0b5284298997"
+                            "uuid": "44889e05-a381-4300-908d-cf132750e2cd"
                         }
                     ],
                     "severity": "error",
@@ -215,12 +110,12 @@
                     "description": "Pin not connected",
                     "items": [
                         {
-                            "description": "Symbol #PWR Pin 1 [Power input, Line]",
+                            "description": "Symbol J_DIMM1 Pin 6 [6, Unspecified, Line]",
                             "pos": {
-                                "x": 2.8956,
-                                "y": 3.7719
+                                "x": 4.5974,
+                                "y": 1.1303
                             },
-                            "uuid": "37cb5014-36a4-4bab-bc55-891431e527c2"
+                            "uuid": "5920df05-e969-4c2a-81be-5e0fd9216ece"
                         }
                     ],
                     "severity": "error",
@@ -230,72 +125,12 @@
                     "description": "Pin not connected",
                     "items": [
                         {
-                            "description": "Symbol U6 Pin 9 [VCC5V, Power input, Line]",
+                            "description": "Symbol J_DIMM1 Pin 7 [7, Unspecified, Line]",
                             "pos": {
-                                "x": 2.8956,
-                                "y": 4.1402
+                                "x": 4.5974,
+                                "y": 1.1557
                             },
-                            "uuid": "4a7f5af6-a613-4688-878d-95c983160516"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "pin_not_connected"
-                },
-                {
-                    "description": "Input Power pin not driven by any Output Power pins",
-                    "items": [
-                        {
-                            "description": "Symbol U6 Pin 9 [VCC5V, Power input, Line]",
-                            "pos": {
-                                "x": 2.8956,
-                                "y": 4.1402
-                            },
-                            "uuid": "4a7f5af6-a613-4688-878d-95c983160516"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "power_pin_not_driven"
-                },
-                {
-                    "description": "Pin not connected",
-                    "items": [
-                        {
-                            "description": "Symbol U6 Pin 17 [SGND, Power input, Line]",
-                            "pos": {
-                                "x": 2.8956,
-                                "y": 4.445
-                            },
-                            "uuid": "c85a9737-f170-4f84-883d-1820301d8efb"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "pin_not_connected"
-                },
-                {
-                    "description": "Input Power pin not driven by any Output Power pins",
-                    "items": [
-                        {
-                            "description": "Symbol U6 Pin 17 [SGND, Power input, Line]",
-                            "pos": {
-                                "x": 2.8956,
-                                "y": 4.445
-                            },
-                            "uuid": "c85a9737-f170-4f84-883d-1820301d8efb"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "power_pin_not_driven"
-                },
-                {
-                    "description": "Pin not connected",
-                    "items": [
-                        {
-                            "description": "Symbol #PWR Pin 1 [Power input, Line]",
-                            "pos": {
-                                "x": 2.8956,
-                                "y": 4.4704
-                            },
-                            "uuid": "55a3a36d-73cf-4ed7-a61a-b239c0baf279"
+                            "uuid": "790a1d7a-ce2a-4a03-931a-d88b6f1578bc"
                         }
                     ],
                     "severity": "error",
@@ -305,12 +140,12 @@
                     "description": "Pin not connected",
                     "items": [
                         {
-                            "description": "Symbol #PWR Pin 1 [Power input, Line]",
+                            "description": "Symbol J_DIMM1 Pin 8 [8, Unspecified, Line]",
                             "pos": {
-                                "x": 2.921,
-                                "y": 3.4163
+                                "x": 4.5974,
+                                "y": 1.1811
                             },
-                            "uuid": "a2d4c74f-02fe-430b-a1c1-5b17f14f79c2"
+                            "uuid": "4e66f872-01c1-444b-9ebb-89c95efd640a"
                         }
                     ],
                     "severity": "error",
@@ -320,12 +155,12 @@
                     "description": "Pin not connected",
                     "items": [
                         {
-                            "description": "Symbol #PWR Pin 1 [Power input, Line]",
+                            "description": "Symbol J_DIMM1 Pin 9 [9, Unspecified, Line]",
                             "pos": {
-                                "x": 2.921,
-                                "y": 3.7719
+                                "x": 4.5974,
+                                "y": 1.2065
                             },
-                            "uuid": "85c3eec3-f14a-4136-8a84-71d79ddce42d"
+                            "uuid": "4d01d94c-6ff2-45d7-b404-e3ae7b81b1f4"
                         }
                     ],
                     "severity": "error",
@@ -335,72 +170,12 @@
                     "description": "Pin not connected",
                     "items": [
                         {
-                            "description": "Symbol U6 Pin 14 [VIN, Power input, Line]",
+                            "description": "Symbol J_DIMM1 Pin 10 [10, Unspecified, Line]",
                             "pos": {
-                                "x": 2.921,
-                                "y": 4.1402
+                                "x": 4.5974,
+                                "y": 1.2319
                             },
-                            "uuid": "652fa4b2-97eb-468a-a23b-2b47937f34c4"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "pin_not_connected"
-                },
-                {
-                    "description": "Input Power pin not driven by any Output Power pins",
-                    "items": [
-                        {
-                            "description": "Symbol U6 Pin 14 [VIN, Power input, Line]",
-                            "pos": {
-                                "x": 2.921,
-                                "y": 4.1402
-                            },
-                            "uuid": "652fa4b2-97eb-468a-a23b-2b47937f34c4"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "power_pin_not_driven"
-                },
-                {
-                    "description": "Pin not connected",
-                    "items": [
-                        {
-                            "description": "Symbol U6 Pin 7 [PGND, Power input, Line]",
-                            "pos": {
-                                "x": 2.921,
-                                "y": 4.445
-                            },
-                            "uuid": "5a46d9d3-e6ec-4394-ba84-3c023de96777"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "pin_not_connected"
-                },
-                {
-                    "description": "Input Power pin not driven by any Output Power pins",
-                    "items": [
-                        {
-                            "description": "Symbol U6 Pin 7 [PGND, Power input, Line]",
-                            "pos": {
-                                "x": 2.921,
-                                "y": 4.445
-                            },
-                            "uuid": "5a46d9d3-e6ec-4394-ba84-3c023de96777"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "power_pin_not_driven"
-                },
-                {
-                    "description": "Pin not connected",
-                    "items": [
-                        {
-                            "description": "Symbol #PWR Pin 1 [Power input, Line]",
-                            "pos": {
-                                "x": 2.921,
-                                "y": 4.4704
-                            },
-                            "uuid": "9664c150-6ff1-432e-bd4d-31ca8d606fb8"
+                            "uuid": "e988f48a-23f0-4113-856b-18e4abc9c315"
                         }
                     ],
                     "severity": "error",
@@ -410,162 +185,12 @@
                     "description": "Pin not connected",
                     "items": [
                         {
-                            "description": "Symbol U4 Pin 12 [UGATE, Output, Line]",
+                            "description": "Symbol J_DIMM1 Pin 11 [11, Unspecified, Line]",
                             "pos": {
-                                "x": 3.048,
-                                "y": 2.8448
+                                "x": 4.5974,
+                                "y": 1.2573
                             },
-                            "uuid": "1b162226-4581-4a17-9f5d-3970f990132b"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "pin_not_connected"
-                },
-                {
-                    "description": "Label not connected",
-                    "items": [
-                        {
-                            "description": "Label 'VRM_UGATE2'",
-                            "pos": {
-                                "x": 3.048,
-                                "y": 2.9464
-                            },
-                            "uuid": "5196ff86-f0be-44c3-b009-b1455752af8d"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "label_dangling"
-                },
-                {
-                    "description": "Pin not connected",
-                    "items": [
-                        {
-                            "description": "Symbol U6 Pin 13 [BOOT, Input, Line]",
-                            "pos": {
-                                "x": 3.048,
-                                "y": 4.2164
-                            },
-                            "uuid": "825cc398-eafa-45f5-9c04-54771eb03bda"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "pin_not_connected"
-                },
-                {
-                    "description": "Input pin not driven by any Output pins",
-                    "items": [
-                        {
-                            "description": "Symbol U6 Pin 13 [BOOT, Input, Line]",
-                            "pos": {
-                                "x": 3.048,
-                                "y": 4.2164
-                            },
-                            "uuid": "825cc398-eafa-45f5-9c04-54771eb03bda"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "pin_not_driven"
-                },
-                {
-                    "description": "Label not connected",
-                    "items": [
-                        {
-                            "description": "Label 'VRM_UGATE4'",
-                            "pos": {
-                                "x": 3.048,
-                                "y": 4.3434
-                            },
-                            "uuid": "132a8945-15f4-472b-b23f-4a59c1e2e2f8"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "label_dangling"
-                },
-                {
-                    "description": "Label not connected",
-                    "items": [
-                        {
-                            "description": "Label 'VRM_BOOT4'",
-                            "pos": {
-                                "x": 3.0734,
-                                "y": 4.2164
-                            },
-                            "uuid": "946cb101-e92e-4d79-acb9-0ed3c1d91d21"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "label_dangling"
-                },
-                {
-                    "description": "Label not connected",
-                    "items": [
-                        {
-                            "description": "Label 'VRM_FB4'",
-                            "pos": {
-                                "x": 3.0734,
-                                "y": 4.3688
-                            },
-                            "uuid": "57bc760a-884c-4c62-b658-61d91c31db19"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "label_dangling"
-                },
-                {
-                    "description": "Label not connected",
-                    "items": [
-                        {
-                            "description": "Label 'VRM_LGATE3'",
-                            "pos": {
-                                "x": 3.2258,
-                                "y": 3.6957
-                            },
-                            "uuid": "0e9078fe-2fa4-4ce2-ab72-36a48148fd97"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "label_dangling"
-                },
-                {
-                    "description": "Label not connected",
-                    "items": [
-                        {
-                            "description": "Label 'VRM_PHASE3'",
-                            "pos": {
-                                "x": 3.302,
-                                "y": 3.6449
-                            },
-                            "uuid": "f312169a-bb8c-4bd0-aa81-6eb450f758ef"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "label_dangling"
-                },
-                {
-                    "description": "Label not connected",
-                    "items": [
-                        {
-                            "description": "Label 'VRM_PHASE4'",
-                            "pos": {
-                                "x": 3.302,
-                                "y": 4.2418
-                            },
-                            "uuid": "904b0639-c063-47bd-a377-3b1dfd7f2744"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "label_dangling"
-                },
-                {
-                    "description": "Pin not connected",
-                    "items": [
-                        {
-                            "description": "Symbol Q5 Pin D [D, Passive, Line]",
-                            "pos": {
-                                "x": 3.3274,
-                                "y": 3.4417
-                            },
-                            "uuid": "a1ac9b60-07ed-4208-8a0c-5d95767956e5"
+                            "uuid": "665449a9-c3f2-4148-b624-e9b418668a03"
                         }
                     ],
                     "severity": "error",
@@ -575,12 +200,12 @@
                     "description": "Pin not connected",
                     "items": [
                         {
-                            "description": "Symbol Q6 Pin S [S, Passive, Line]",
+                            "description": "Symbol J_DIMM1 Pin 12 [12, Unspecified, Line]",
                             "pos": {
-                                "x": 3.3274,
-                                "y": 3.7465
+                                "x": 4.5974,
+                                "y": 1.2827
                             },
-                            "uuid": "0902daaf-2f11-4c0e-bdf2-31dd40fd5fa3"
+                            "uuid": "15bc55a6-f09d-4102-af91-7519ffe88484"
                         }
                     ],
                     "severity": "error",
@@ -590,12 +215,12 @@
                     "description": "Pin not connected",
                     "items": [
                         {
-                            "description": "Symbol Q7 Pin D [D, Passive, Line]",
+                            "description": "Symbol J_DIMM1 Pin 13 [13, Unspecified, Line]",
                             "pos": {
-                                "x": 3.3274,
-                                "y": 4.1402
+                                "x": 4.5974,
+                                "y": 1.3081
                             },
-                            "uuid": "522d1585-00c4-4b15-b9c5-d152a7506f05"
+                            "uuid": "c49c8098-0478-41d6-8818-9dd15b5b9250"
                         }
                     ],
                     "severity": "error",
@@ -605,12 +230,1122 @@
                     "description": "Pin not connected",
                     "items": [
                         {
-                            "description": "Symbol Q8 Pin S [S, Passive, Line]",
+                            "description": "Symbol J_DIMM1 Pin 14 [14, Unspecified, Line]",
                             "pos": {
-                                "x": 3.3274,
-                                "y": 4.445
+                                "x": 4.5974,
+                                "y": 1.3335
                             },
-                            "uuid": "47e17dde-2735-4d1f-bbeb-a80d3428302a"
+                            "uuid": "2c8f82f2-f7b4-4d76-b7f9-c822095e92f3"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM1 Pin 15 [15, Unspecified, Line]",
+                            "pos": {
+                                "x": 4.5974,
+                                "y": 1.3589
+                            },
+                            "uuid": "953d930f-fdf1-46b7-ab43-d85a4d1a3ee3"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM1 Pin 16 [16, Unspecified, Line]",
+                            "pos": {
+                                "x": 4.5974,
+                                "y": 1.3843
+                            },
+                            "uuid": "8594c637-dbcb-448b-96b2-39b168d99622"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM1 Pin 17 [17, Unspecified, Line]",
+                            "pos": {
+                                "x": 4.5974,
+                                "y": 1.4097
+                            },
+                            "uuid": "9bcd0e5c-a399-4c04-9c7c-fc111cff0b05"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM1 Pin 18 [18, Unspecified, Line]",
+                            "pos": {
+                                "x": 4.5974,
+                                "y": 1.4351
+                            },
+                            "uuid": "1e7381ae-8468-4b27-8dab-d74522073c47"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM1 Pin 19 [19, Unspecified, Line]",
+                            "pos": {
+                                "x": 4.5974,
+                                "y": 1.4605
+                            },
+                            "uuid": "a71e0919-429d-4d4a-9f71-98cc317b5318"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM1 Pin 20 [20, Unspecified, Line]",
+                            "pos": {
+                                "x": 4.5974,
+                                "y": 1.4859
+                            },
+                            "uuid": "a5538440-9530-4434-94f8-185afdf9701c"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM1 Pin 21 [21, Unspecified, Line]",
+                            "pos": {
+                                "x": 4.5974,
+                                "y": 1.5113
+                            },
+                            "uuid": "137db79f-8283-4c58-9ba3-86e9c943cd81"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM1 Pin 22 [22, Unspecified, Line]",
+                            "pos": {
+                                "x": 4.5974,
+                                "y": 1.5367
+                            },
+                            "uuid": "098106df-a8f7-4635-9bb5-7fe8a38d03a0"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM1 Pin 23 [23, Unspecified, Line]",
+                            "pos": {
+                                "x": 4.5974,
+                                "y": 1.5621
+                            },
+                            "uuid": "9a30c242-4974-41b8-a718-b5b7b822ec75"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM1 Pin 24 [24, Unspecified, Line]",
+                            "pos": {
+                                "x": 4.5974,
+                                "y": 1.5875
+                            },
+                            "uuid": "1b8f37cf-7403-4cff-a04a-50300cefd322"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM1 Pin 25 [25, Unspecified, Line]",
+                            "pos": {
+                                "x": 4.5974,
+                                "y": 1.6129
+                            },
+                            "uuid": "a438fe70-bb5c-4d40-9e9c-cfebe2aa4544"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM1 Pin 26 [26, Unspecified, Line]",
+                            "pos": {
+                                "x": 4.5974,
+                                "y": 1.6383
+                            },
+                            "uuid": "844d70d5-090c-4d11-a7dd-45a4f962408d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM1 Pin 27 [27, Unspecified, Line]",
+                            "pos": {
+                                "x": 4.5974,
+                                "y": 1.6637
+                            },
+                            "uuid": "0470b296-f653-426f-8897-627ec2bfb532"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM1 Pin 28 [28, Unspecified, Line]",
+                            "pos": {
+                                "x": 4.5974,
+                                "y": 1.6891
+                            },
+                            "uuid": "36697f93-f7ab-43a2-b170-bf3c2f0dac9a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM1 Pin 29 [29, Unspecified, Line]",
+                            "pos": {
+                                "x": 4.5974,
+                                "y": 1.7145
+                            },
+                            "uuid": "546bd7da-b017-4683-bb6c-3ed67b28eaa1"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM1 Pin 30 [30, Unspecified, Line]",
+                            "pos": {
+                                "x": 4.5974,
+                                "y": 1.7399
+                            },
+                            "uuid": "1ab4294c-abc6-46bc-b0f5-a2ec9ed5be2c"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM1 Pin 31 [31, Unspecified, Line]",
+                            "pos": {
+                                "x": 4.5974,
+                                "y": 1.7653
+                            },
+                            "uuid": "d6cc8e0f-82bd-4de8-8f0a-1bc1adc43f2a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM1 Pin 32 [32, Unspecified, Line]",
+                            "pos": {
+                                "x": 4.5974,
+                                "y": 1.7907
+                            },
+                            "uuid": "a39d24fe-e952-45a1-92fa-8a779ee3d40b"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM1 Pin 33 [33, Unspecified, Line]",
+                            "pos": {
+                                "x": 4.5974,
+                                "y": 1.8161
+                            },
+                            "uuid": "97465913-2eb4-486e-8960-11168f3522d8"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM1 Pin 34 [34, Unspecified, Line]",
+                            "pos": {
+                                "x": 4.5974,
+                                "y": 1.8415
+                            },
+                            "uuid": "fe188b87-82dc-4080-8ab9-bf201bb78ce1"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM1 Pin 35 [35, Unspecified, Line]",
+                            "pos": {
+                                "x": 4.5974,
+                                "y": 1.8669
+                            },
+                            "uuid": "a0d73970-1e11-467c-9042-20340423e0a0"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM1 Pin 36 [36, Unspecified, Line]",
+                            "pos": {
+                                "x": 4.5974,
+                                "y": 1.8923
+                            },
+                            "uuid": "94268b50-4e46-48ab-9e8d-a14354548532"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM1 Pin 37 [37, Unspecified, Line]",
+                            "pos": {
+                                "x": 4.5974,
+                                "y": 1.9177
+                            },
+                            "uuid": "3e7613d6-44fd-4fff-a35d-bedbebe473aa"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM1 Pin 38 [38, Unspecified, Line]",
+                            "pos": {
+                                "x": 4.5974,
+                                "y": 1.9431
+                            },
+                            "uuid": "50c09a5c-9afd-4c91-802b-a1dc249ca93e"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM1 Pin 39 [39, Unspecified, Line]",
+                            "pos": {
+                                "x": 4.5974,
+                                "y": 1.9685
+                            },
+                            "uuid": "49d2ec23-9574-4189-9cf3-ff6e69b64767"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM1 Pin 40 [40, Unspecified, Line]",
+                            "pos": {
+                                "x": 4.5974,
+                                "y": 1.9939
+                            },
+                            "uuid": "f6c3cf72-224d-4381-89bd-5985e6e8f5df"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM1 Pin 41 [41, Unspecified, Line]",
+                            "pos": {
+                                "x": 4.5974,
+                                "y": 2.0193
+                            },
+                            "uuid": "6d5e90d4-a2ca-4177-9e06-cba2f33e72c7"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM1 Pin 42 [42, Unspecified, Line]",
+                            "pos": {
+                                "x": 4.5974,
+                                "y": 2.0447
+                            },
+                            "uuid": "32ce66ba-9491-4fc4-8fd7-84709b3f4274"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM1 Pin 43 [43, Unspecified, Line]",
+                            "pos": {
+                                "x": 4.5974,
+                                "y": 2.0701
+                            },
+                            "uuid": "9a2d23d9-c51d-4f41-94d5-26e08589fd07"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM1 Pin 44 [44, Unspecified, Line]",
+                            "pos": {
+                                "x": 4.5974,
+                                "y": 2.0955
+                            },
+                            "uuid": "0a5762dc-68ce-4da3-9940-cd18b9990503"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM2 Pin 1 [1, Unspecified, Line]",
+                            "pos": {
+                                "x": 5.8039,
+                                "y": 1.0033
+                            },
+                            "uuid": "7bdf5d64-c432-4c11-8e10-ac272f881ab7"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM2 Pin 2 [2, Unspecified, Line]",
+                            "pos": {
+                                "x": 5.8039,
+                                "y": 1.0287
+                            },
+                            "uuid": "29098a5b-4731-46b4-b46a-59cc122f346e"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM2 Pin 3 [3, Unspecified, Line]",
+                            "pos": {
+                                "x": 5.8039,
+                                "y": 1.0541
+                            },
+                            "uuid": "7935a932-887a-444b-8efd-2897c9edf938"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM2 Pin 4 [4, Unspecified, Line]",
+                            "pos": {
+                                "x": 5.8039,
+                                "y": 1.0795
+                            },
+                            "uuid": "da200615-4dae-4ec7-9297-20914d1bfed1"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM2 Pin 5 [5, Unspecified, Line]",
+                            "pos": {
+                                "x": 5.8039,
+                                "y": 1.1049
+                            },
+                            "uuid": "2cc1db18-d4be-48fa-8d14-746362b90df7"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM2 Pin 6 [6, Unspecified, Line]",
+                            "pos": {
+                                "x": 5.8039,
+                                "y": 1.1303
+                            },
+                            "uuid": "1006a3bb-5157-4e09-8e77-5cab60c2753d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM2 Pin 7 [7, Unspecified, Line]",
+                            "pos": {
+                                "x": 5.8039,
+                                "y": 1.1557
+                            },
+                            "uuid": "60d66d56-4d22-418a-b957-e7b9d4836269"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM2 Pin 8 [8, Unspecified, Line]",
+                            "pos": {
+                                "x": 5.8039,
+                                "y": 1.1811
+                            },
+                            "uuid": "64caf7ca-3dcb-4034-9a22-cae7bd9c1f8d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM2 Pin 9 [9, Unspecified, Line]",
+                            "pos": {
+                                "x": 5.8039,
+                                "y": 1.2065
+                            },
+                            "uuid": "280d0085-aa6c-4dff-a3ff-31c8e87c813d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM2 Pin 10 [10, Unspecified, Line]",
+                            "pos": {
+                                "x": 5.8039,
+                                "y": 1.2319
+                            },
+                            "uuid": "e6bc8d3b-5260-4019-a406-a9de94e85edc"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM2 Pin 11 [11, Unspecified, Line]",
+                            "pos": {
+                                "x": 5.8039,
+                                "y": 1.2573
+                            },
+                            "uuid": "df059ae5-7930-40a4-a224-06b432ab6a76"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM2 Pin 12 [12, Unspecified, Line]",
+                            "pos": {
+                                "x": 5.8039,
+                                "y": 1.2827
+                            },
+                            "uuid": "9e44f792-13a8-4848-ab09-febe1fec363c"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM2 Pin 13 [13, Unspecified, Line]",
+                            "pos": {
+                                "x": 5.8039,
+                                "y": 1.3081
+                            },
+                            "uuid": "ede3fa0e-c019-4b2f-b507-0b4759d4856d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM2 Pin 14 [14, Unspecified, Line]",
+                            "pos": {
+                                "x": 5.8039,
+                                "y": 1.3335
+                            },
+                            "uuid": "f47b3aa4-81a4-4435-bb28-3ffe1197e5ec"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM2 Pin 15 [15, Unspecified, Line]",
+                            "pos": {
+                                "x": 5.8039,
+                                "y": 1.3589
+                            },
+                            "uuid": "668da518-4078-4bcc-97ba-013ad5ecf378"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM2 Pin 16 [16, Unspecified, Line]",
+                            "pos": {
+                                "x": 5.8039,
+                                "y": 1.3843
+                            },
+                            "uuid": "0f3c6dfe-3955-4942-9964-727eaf047324"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM2 Pin 17 [17, Unspecified, Line]",
+                            "pos": {
+                                "x": 5.8039,
+                                "y": 1.4097
+                            },
+                            "uuid": "10248c15-7c48-41b0-9d4f-500a90a8502a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM2 Pin 18 [18, Unspecified, Line]",
+                            "pos": {
+                                "x": 5.8039,
+                                "y": 1.4351
+                            },
+                            "uuid": "dcb8319b-7f25-4591-a87b-a14f6ef12d07"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM2 Pin 19 [19, Unspecified, Line]",
+                            "pos": {
+                                "x": 5.8039,
+                                "y": 1.4605
+                            },
+                            "uuid": "ec01fd74-286b-478d-9fa9-f15aceba59b1"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM2 Pin 20 [20, Unspecified, Line]",
+                            "pos": {
+                                "x": 5.8039,
+                                "y": 1.4859
+                            },
+                            "uuid": "84ec017e-cddc-4c5f-81a3-26e3b24c73eb"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM2 Pin 21 [21, Unspecified, Line]",
+                            "pos": {
+                                "x": 5.8039,
+                                "y": 1.5113
+                            },
+                            "uuid": "32f359e0-e216-40df-b657-513b645d3383"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM2 Pin 22 [22, Unspecified, Line]",
+                            "pos": {
+                                "x": 5.8039,
+                                "y": 1.5367
+                            },
+                            "uuid": "9093b056-ab0b-43f9-bb90-d6c661463658"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM2 Pin 23 [23, Unspecified, Line]",
+                            "pos": {
+                                "x": 5.8039,
+                                "y": 1.5621
+                            },
+                            "uuid": "541c9625-cd63-463d-92d5-635c23463884"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM2 Pin 24 [24, Unspecified, Line]",
+                            "pos": {
+                                "x": 5.8039,
+                                "y": 1.5875
+                            },
+                            "uuid": "5a7a3eaa-0c91-42c5-9b4f-8349cfdcc2ad"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM2 Pin 25 [25, Unspecified, Line]",
+                            "pos": {
+                                "x": 5.8039,
+                                "y": 1.6129
+                            },
+                            "uuid": "fff90257-af61-4564-95dd-0cb55e65da3d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM2 Pin 26 [26, Unspecified, Line]",
+                            "pos": {
+                                "x": 5.8039,
+                                "y": 1.6383
+                            },
+                            "uuid": "22d039c5-26cb-4f74-8df0-ae72dd9323de"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM2 Pin 27 [27, Unspecified, Line]",
+                            "pos": {
+                                "x": 5.8039,
+                                "y": 1.6637
+                            },
+                            "uuid": "376b1c3a-29a5-45bb-a012-8136f3e88eba"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM2 Pin 28 [28, Unspecified, Line]",
+                            "pos": {
+                                "x": 5.8039,
+                                "y": 1.6891
+                            },
+                            "uuid": "aa7307d6-b011-4ac1-bca1-2bc91f70cff8"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM2 Pin 29 [29, Unspecified, Line]",
+                            "pos": {
+                                "x": 5.8039,
+                                "y": 1.7145
+                            },
+                            "uuid": "2c582454-6534-4d00-bcf4-a2d69abfcbdc"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM2 Pin 30 [30, Unspecified, Line]",
+                            "pos": {
+                                "x": 5.8039,
+                                "y": 1.7399
+                            },
+                            "uuid": "84f26ffb-458f-4371-a685-78627cabb4bd"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM2 Pin 31 [31, Unspecified, Line]",
+                            "pos": {
+                                "x": 5.8039,
+                                "y": 1.7653
+                            },
+                            "uuid": "9952dcf3-ba9c-4b83-ae64-c24f586a7267"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM2 Pin 32 [32, Unspecified, Line]",
+                            "pos": {
+                                "x": 5.8039,
+                                "y": 1.7907
+                            },
+                            "uuid": "35d09a1b-0879-4cbc-848f-e0f5eca5e209"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM2 Pin 33 [33, Unspecified, Line]",
+                            "pos": {
+                                "x": 5.8039,
+                                "y": 1.8161
+                            },
+                            "uuid": "a2e4390f-3976-4122-969d-bdb8a61cc8ef"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM2 Pin 34 [34, Unspecified, Line]",
+                            "pos": {
+                                "x": 5.8039,
+                                "y": 1.8415
+                            },
+                            "uuid": "0f1df5fb-0aa3-4919-af8a-8e4885d68b9a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM2 Pin 35 [35, Unspecified, Line]",
+                            "pos": {
+                                "x": 5.8039,
+                                "y": 1.8669
+                            },
+                            "uuid": "7b024630-00a4-43f8-a936-30dcfb6e4bc9"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM2 Pin 36 [36, Unspecified, Line]",
+                            "pos": {
+                                "x": 5.8039,
+                                "y": 1.8923
+                            },
+                            "uuid": "b48d8a94-3043-4ada-a99a-86baefcddf18"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM2 Pin 37 [37, Unspecified, Line]",
+                            "pos": {
+                                "x": 5.8039,
+                                "y": 1.9177
+                            },
+                            "uuid": "1c314db3-73c0-487d-8ae1-57235553a570"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM2 Pin 38 [38, Unspecified, Line]",
+                            "pos": {
+                                "x": 5.8039,
+                                "y": 1.9431
+                            },
+                            "uuid": "18dc9b81-f7d9-4eb7-b4be-80d75b91b573"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM2 Pin 39 [39, Unspecified, Line]",
+                            "pos": {
+                                "x": 5.8039,
+                                "y": 1.9685
+                            },
+                            "uuid": "31b8cc7c-0b0f-4d98-9a61-b013ca49a781"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM2 Pin 40 [40, Unspecified, Line]",
+                            "pos": {
+                                "x": 5.8039,
+                                "y": 1.9939
+                            },
+                            "uuid": "75c680be-7c0b-4ac4-8c7f-f14ea3aa855a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM2 Pin 41 [41, Unspecified, Line]",
+                            "pos": {
+                                "x": 5.8039,
+                                "y": 2.0193
+                            },
+                            "uuid": "6a8fb561-f043-4df1-b49b-8e3db76b1918"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM2 Pin 42 [42, Unspecified, Line]",
+                            "pos": {
+                                "x": 5.8039,
+                                "y": 2.0447
+                            },
+                            "uuid": "956b6160-158e-4cd0-ac01-53c129e94913"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM2 Pin 43 [43, Unspecified, Line]",
+                            "pos": {
+                                "x": 5.8039,
+                                "y": 2.0701
+                            },
+                            "uuid": "a4ce8c5b-d621-4f9a-8dfe-c9451c377cbb"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM2 Pin 44 [44, Unspecified, Line]",
+                            "pos": {
+                                "x": 5.8039,
+                                "y": 2.0955
+                            },
+                            "uuid": "0e928b6d-a4cf-48c9-ba76-ba05888ff80d"
                         }
                     ],
                     "severity": "error",
@@ -680,21 +1415,6 @@
                     "description": "Label connected to only one pin",
                     "items": [
                         {
-                            "description": "Label 'VRM_CLKOUT4'",
-                            "pos": {
-                                "x": 2.7432,
-                                "y": 4.2926
-                            },
-                            "uuid": "f981d0bf-c845-4c43-a00a-5d2952c4c744"
-                        }
-                    ],
-                    "severity": "warning",
-                    "type": "isolated_pin_label"
-                },
-                {
-                    "description": "Label connected to only one pin",
-                    "items": [
-                        {
                             "description": "Label 'VRM_ISEN'",
                             "pos": {
                                 "x": 3.048,
@@ -750,6 +1470,36 @@
                     ],
                     "severity": "warning",
                     "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Symbol J_DIMM1 has unplaced units [ B, C, D, . ]",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM1 [DDR4_SODIMM_CONN260]",
+                            "pos": {
+                                "x": 4.5974,
+                                "y": 1.0033
+                            },
+                            "uuid": "3b55f405-a9d4-42fc-bfe4-35d62c2b9aab"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "missing_unit"
+                },
+                {
+                    "description": "Symbol J_DIMM2 has unplaced units [ B, C, D, . ]",
+                    "items": [
+                        {
+                            "description": "Symbol J_DIMM2 [DDR4_SODIMM_CONN260]",
+                            "pos": {
+                                "x": 5.8039,
+                                "y": 1.0033
+                            },
+                            "uuid": "407bc109-6bc8-4145-a370-98dceea935de"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "missing_unit"
                 }
             ]
         }

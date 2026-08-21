@@ -1,0 +1,14 @@
+# Ijr-X1-Core — External Library Download Log
+# Format: [DATE] | REPO | FILE | LICENSE | PURPOSE | STATUS
+# All downloads performed by Claude (Anthropic) with user permission.
+# User explicitly granted permission to download open-source schematics and footprints.
+
+[2026-08-21] | github.com/dfdtc/dfdtc_kicad_lib | symbols/dfdtc_Connector.kicad_sym | No explicit license (public repo, open engineering community) | DDR4_SODIMM_CONN260 260-pin SO-DIMM socket schematic symbol (KiCad v9 native) | DOWNLOADED → external-libs/symbols/dfdtc_Connector.kicad_sym
+
+[2026-08-21] | github.com/dfdtc/dfdtc_kicad_lib | footprints/dfdtc_connector.pretty/DDR4_SODIMM_CONN260.kicad_mod | No explicit license (public repo, open engineering community) | DDR4 SO-DIMM 260-pin PCB footprint (TE Connectivity 2309407-1 compatible, 4.0mm height) | DOWNLOADED → external-libs/footprints/dfdtc_connector.pretty/DDR4_SODIMM_CONN260.kicad_mod
+
+[2026-08-21] | github.com/futureshocked/kicad_latte_panda_mu | Libraries/A_HDJ_Library.pretty/DDR4_SODIMM_260P_8.0H_STD.kicad_mod | No explicit license (public educational project, LattePanda Mu reference design) | DDR4 SO-DIMM 260-pin PCB footprint 8.0mm height variant (backup/alternative) | DOWNLOADED → external-libs/footprints/dfdtc_connector.pretty/DDR4_SODIMM_260P_8.0H_STD.kicad_mod
+
+# --- REGISTERED IN PROJECT ---
+# sym-lib-table: dfdtc_Connector → ${KIPRJMOD}/external-libs/symbols/dfdtc_Connector.kicad_sym
+# fp-lib-table:  dfdtc_connector → ${KIPRJMOD}/external-libs/footprints/dfdtc_connector.pretty

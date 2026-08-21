@@ -294,9 +294,9 @@ User installs their own RAM modules. No soldered RAM on board.
 | GPIO header J_GPIO (2×25) | ✅ Complete |
 | SWD header J_SWD (2×3) | ✅ Complete |
 | PWR_FLAG ×2 | ✅ Complete |
-| **ERC violations** | **0 ✅** (27 components, 85 nets) |
+| **ERC violations** | **0 errors, 8 warnings ✅** (67 components, 128 nets) |
 | ATX power input (J_ATX24/J_EPS8/J_PCIE1/J_PCIE2/J_PWRBTN/J_PWRLED/J_PWROK/R8) | ✅ Complete |
-| CPU VRM | ⬜ |
+| CPU VRM — 4-phase ISL8117FRZ (U3–U6 + Q1–Q8 + L1–L4 + all passives) | ✅ Complete |
 | SO-DIMM slots | ⬜ |
 | M.2 slots | ⬜ |
 | 10GbE controller | ⬜ |
