@@ -98,7 +98,7 @@ Must be >> 1KB. Run `sch_get_circuit_ir` — must return non-zero component coun
 
 | Property | Value |
 |---|---|
-| Type | DDR4-3200 **or** DDR5-4800 (same slots, user picks) |
+| Type | DDR4-3200 (J_DIMM1/J_DIMM2) **or** DDR5-4800 (J_DIMM3/J_DIMM4) — dedicated slots per type |
 | Slots | 2× SO-DIMM |
 | Max capacity | 64GB (2×32GB dual channel) |
 | Channels | Dual channel (recommended — single channel halves bandwidth) |
@@ -298,6 +298,7 @@ User installs their own RAM modules. No soldered RAM on board.
 | ATX power input (J_ATX24/J_EPS8/J_PCIE1/J_PCIE2/J_PWRBTN/J_PWRLED/J_PWROK/R8) | ✅ Complete |
 | CPU VRM — 4-phase ISL8117FRZ (U3–U6 + Q1–Q8 + L1–L4 + all passives) | ✅ Complete |
 | SO-DIMM slots (DDR4 260-pin x2, all pins labelled) | ✅ Complete |
+| SO-DIMM slots (DDR5 262-pin x2, all pins labelled, custom symbol) | ✅ Complete |
 | VDDQ/VPP/VTT/VREFCA reference circuit for SO-DIMM | ⬜ |
 | M.2 slots | ⬜ |
 | 10GbE controller | ⬜ |

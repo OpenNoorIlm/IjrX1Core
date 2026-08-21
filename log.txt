@@ -1,0 +1,28 @@
+
+=== Step 8 — Intel X550-AT 10GbE Ethernet ===
+Date: 2026-08-21
+Script: scripts/x550_insert.py
+Backup: Ijr-X1-Core.kicad_sch.bak_before_x550
+IC decision: Intel X550-AT chosen over Marvell AQC107
+  Reason: rock-solid Linux ixgbe in-kernel driver, proven server reliability
+  AQC107 rejected: known stability issues under sustained heavy load
+
+Components added:
+  U9  = W25Q32JV (reusing W25Q16JVSSIQ symbol) — 4MB SPI NOR firmware flash for X550-AT
+  U10 = AP7361C-10E — 1.0V LDO for X550-AT VCCP (core voltage)
+  U11 = AP7361C-18E — 1.8V LDO for X550-AT VCCIO
+  C28 = 100nF decoupling on U9 VCC
+  C29,C30 = 10uF decoupling on U10 IN/OUT
+  C31,C32 = 10uF decoupling on U11 IN/OUT
+  J_RJ45 = Connector:RJ45 — 10GBASE-T RJ45 with integrated magnetics
+  R28 = 100kΩ LAN_PWR_GOOD pull-up to +3V3
+
+Nets added (all single-endpoint, pending CPU wiring in Step 10):
+  ETH_PET0–3 p/n, ETH_PER0–3 p/n (PCIe x4 to CPU)
+  ETH_REFCLK_p/n, ETH_PERST_N, ETH_WAKE_N (PCIe control)
+  ETH_MDI0–3 p/n (copper PHY — RJ45 side via magnetics)
+  ETH_FL_CS_N, ETH_FL_CLK, ETH_FL_DI, ETH_FL_DO, ETH_FL_WP_N, ETH_FL_HOLD_N (SPI flash ctrl)
+  ETH_LAN_PWR_GOOD (pulled to +3V3 via R28)
+  +1V0_ETH, +1V8_ETH (LDO output rails)
+
+Result: 99 components, 1284 nets, 0 ERC errors

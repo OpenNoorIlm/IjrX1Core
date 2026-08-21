@@ -1,0 +1,9 @@
+
+[2026-08-21 16:32] DDR5 SO-DIMM 262-pin symbol + schematic placement
+  Source: Micron DDR5 SODIMM Core Datasheet CCM005-802248454-17 Rev E (via Farnell 4530576.pdf)
+  URL: https://www.farnell.com/datasheets/4530576.pdf
+  License: JEDEC public standard; symbol generated from scratch (not copied from any library)
+  Symbol file: ddr5_sodimm.kicad_sym (DDR5_SODIMM_CONN262, 6 units × 262 pins)
+  Placed: J_DIMM3 (X=700.0), J_DIMM4 (X=820.0) — DDR5 SO-DIMM slots
+  Net naming: <SIGNAL>_D3 / <SIGNAL>_D4 per DIMM, VSS→GND, VIN_BULK→VDD_DDR5
+  Script: /tmp/gen_ddr5.py
